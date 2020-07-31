@@ -1,6 +1,9 @@
-# Repositório público do prof. Gustavo Sousa Jr
+# Bem vindo ao meu repositório público
 
+Ainda estou aprendendo a usar o GitHub e o GitHub Pages.
+Por hora, nõa haverá muita coisa aqui mas, agradeço a visita.
 
+Forte abraço!
 <!--
 **grsousajunior/grsousajunior** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
