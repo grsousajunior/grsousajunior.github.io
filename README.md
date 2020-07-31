@@ -1,7 +1,5 @@
-### Hi there 👋
+# Repositório público do prof. Gustavo Sousa Jr
 
-# Vitaminas
-Algume texto sobre vitaminas.
 
 <!--
 **grsousajunior/grsousajunior** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
