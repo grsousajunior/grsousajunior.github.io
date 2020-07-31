@@ -1,7 +1,8 @@
 # Bem vindo ao meu repositório público
 
-Ainda estou aprendendo a usar o GitHub e o GitHub Pages.
-Por hora, nõa haverá muita coisa aqui mas, agradeço a visita.
+Ainda estou aprendendo a usar o `GitHub` e o `GitHub Pages`.
+Portanto não haverá muita coisa aqui.
+De qualquer forma, agradeço a visita.
 
 Forte abraço!
 <!--
