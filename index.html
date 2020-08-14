@@ -45,10 +45,76 @@
       <div class="row">
         <div class="col-12">
           <h1>Titulação de um Ácido Forte com uma Base Forte</h1>
-          <p class="bd-lead">Nesse artigo vamos aprender um pouco sobre as titulações ácido–base envolvendo um ácido forte e uma base forte.</p>
-          <p>Considere a seguinte reação entre um ácido forte, $\ce{HA}$, e uma base forte, $\ce{BOH}$. As reações envolvidas são:</p>
-          <p>$$\ce{HA + H2O -> H3O+ + A-}$$</p>
-          <p>$$\ce{BOH ->B+ + OH-}$$</p>
+          <p class="lead">Nesse artigo vamos aprender um pouco sobre as titulações ácido-base envolvendo um ácido forte e uma base forte.</p>
+          <h2>Introdução</h2>
+          <p>
+            A titulação de um ácido forte com uma base forte é caso mais simples dentre as <a href="#">titulações ácido-base</a>. 
+            Uma vez que tanto o ácido quanto a base são fortes, eles se dissociam completamente em água.
+            A titulação tem por objetivo determinar a concentração da solução ácida através da titulação com uma solução básica de concentração conhecida, ou vice versa, 
+            determinar a concentração de uma solução básica através através da titulação com uma solução ácida de concentração conhecida, até que o <a href="#">ponto de equivalência</a>.
+          </p>
+          
+          <h2>O ácido forte</h2>
+          <p>
+            Um <a href="#">ácido forte</a> está completamente dissociado em solução aquosa. 
+            Isso siginifica que, quando colocado em água, todo o ácido irá se separar em íons, ao contrário do que acontece com um <a href="#">ácido fraco</a>.
+            Se denotarmos um ácido forte qualquer por $\ce{HA}$, a equação geral de dissociação pode ser escrita como:
+          </p>
+          <p>
+            $$\ce{HA(aq) + H2O(l) -> H3O+(aq) + A-(aq)}\tag{1}\label{eq:dissAcidoForte}$$
+          </p>
+          <p>
+            com $\ce{H3O+}$ represetando o <a href="#">hidrônio</a> e $\ce{A-}$ representando a <a href="#">base conjugada</a> de $\ce{HA}$.
+          </p>
+
+          <h2>A base forte</h2>
+          <p>
+            A exemplo do ocorrer com o ácido forte, uma <a href="#">base forte</a> também está completamente ionizada em solução aquosa.
+            Isso significa que a bases se converterá completamente em seus íons quando colocada em água.
+            Representado por $\ce{BOH}$ a base forte, a equação geral de dissociação pode ser escrita como:
+          </p>
+          <p>$$\ce{BOH(aq) -> B+(aq) + OH-(aq)}\tag{2}\label{eq:dissBaseForte}$$</p>
+          <p>com $\ce{OH-}$ representando o <a href="#">hidróxido</a> e $\ce{B+}$ representando o <a href="#">ácido conjugado</a> de $\ce{BOH}$</p>
+
+          <h2>A autodissociação da água</h2>
+          <p>
+            A própria água pode sofre dissociação. O equilíbrio envolvido a constante associada são:
+          </p>
+          <p>$$\ce{2 H2O(aq) <=> H3O+(aq) + OH-(aq)}\tag{3}\label{eq:dissAgua}$$</p>
+          <p>
+            cuja expressão da constante de equilíbrio é:
+          </p>
+          <p>$$\ce{K_\text{w}} = \ce{[H3O+][OH-]}\tag{4}\label{eq:Kw}$$</p>
+          
+          <h2>A reação de neutralização</h2>
+          <p>
+            A determinação da concentração da solução ácida (ou básica) a partir de uma solução básica (ou ácida) de concentração conhecida envolve uma reação de neutralização.
+          </p>
+          <h2>Balanço de carga</h2>
+          <p>
+            $$\ce{[H3O+] + [B+] = [OH-] + [A-]}\tag{5}\label{eq:balmass}$$
+          </p>
+          
+          <h2>Balanço de massa</h2>
+          <p>$$\begin{align}
+            C_\ce{BOH} &= \ce{[B+]}\tag{6a}\label{eq:balmassBase}\\
+            C_\ce{HA}  &= \ce{[A-]}\tag{6b}\label{eq:balmassAc}
+            \end{align}$$
+          </p>
+
+          <h2>Equação geral</h2>
+          <p>
+            Substituindo  as equações $\eqref{eq:Kw}$, $\eqref{eq:balmassBase}$ e $\eqref{eq:balmassBase}$ na equação $\eqref{eq:balmass}$ podemos escrever:
+          </p>
+          <p>
+            $$\ce{[H3O+]} + C_\ce{BOH} = \displaystyle\frac{\ce{K}_\text{w}}{\ce{[H3O+]}} + C_\ce{HA}\tag{7}\label{eq:geral-1}$$
+          </p>
+          <p>A $\eqref{eq:geral-1}$ pode ser reescrita na forma</p>
+          <p>$$\ce{[H3O+]}^2 + \ce{[H3O+]}\left(C_\ce{BOH} - C_\ce{HA} \right) - \ce{K}_\text{w} = 0\tag{8}\label{eq:geral-final}$$</p>
+          <p>que tem a forma de uma equação do segundo grau:</p>
+          <p>$$ax^2 + bx + c = 0 $$</p>
+          <p>com $x = \ce{[H3O+]}$, $a = 1$, $b = \left(C_\ce{BOH} - C_\ce{HA} \right)$ e $c = -\ce{K}_\text{w}$.</p>
+
         </div><!--div class="col-12"-->
       </div><!--div class="row"-->
     </div><!--div class="container"-->
