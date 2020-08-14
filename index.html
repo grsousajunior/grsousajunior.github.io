@@ -3,263 +3,54 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- CSS only -->
+    <title>Gustavo R Sousa Jr · Material online para o ensino de Química</title>
+    <!--CSS do Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- JS, Popper.js, and jQuery -->
+    <!--JS, Popper.js e jQuery do Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <!-- MathJax -->
+    <!--MathJax-->
     <script>MathJax = {tex:{ inlineMath: [['$', '$'], ['\\(', '\\)']] } };</script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
-     <link rel="icon" href="imagens/gustavo-circle.png" type="image/png" sizes="32x32"> 
-    
-    <title>Gustavo R Sousa Jr - Home</title>
+    <!--Favicon-->
+    <link rel="icon" href="imagens/logo-32.png" type="image/png" sizes="32x32">
   </head>
   <body>
     <header>
+      <!--Barra de navegação-->
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-          <a class="navbar-brand" href="#">Barra de navegação</a>
+          <a class="navbar-brand" href="#">
+            <img src="imagens/logo-32.png" width="32" height="32" alt="">
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="navbar-nav mr-auto">
                 <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Opção 1</a>
-                <a class="nav-item nav-link" href="#">Opção 2</a>
-                <a class="nav-item nav-link" href="#">Opção 3</a>
-                <a class="nav-item nav-link" href="#">Opção 4</a>
-                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Físico-Química</a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Química Analítica</a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Química Inorgânica</a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Química Orgânica</a>
+                <a class="nav-item nav-link" href="#">Sobre</a>
             </div>
           </div>
-        </div>
+        </div><!--div class="container"-->
       </nav>
   </header>
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <p>Considere a seguinte reação consecutiva entre $\ce{A}$, $\ce{B}$ e $\ce{C}$:</p>
-          <p>$$\ce{A<=>[$k_1$][$k_2$]B<=>[$k_3$][$k_4$]C}$$</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aut eos unde voluptatem eveniet maxime necessitatibus tempore ut quia vitae, itaque voluptate, nisi illum similique ab qui consequatur accusantium ducimus!</p>
-          <a href="#">Link</a>
-          <pre><code>reset
-# ==================================================
-#Ksp = 37.950   # NaCl
-#Ksp = 2.3E-3    # Bacana
-#Ksp = 2.0E-3    # Pergunta
-Ksp = 2.3E-3    # Teste
-
-Kw  = 10**(-14.0)
-
-CA0 = 0.1   # mol/L
-CB0 = 0.1   # mol/L
-
-VA  = 0.1   # L
-
-# ==================================================
-V1 = (-(VA*(2 - (CA0*CB0)/Ksp)) - sqrt((VA*(2 - (CA0*CB0)/Ksp))**2 - 4*VA**2))/2.0
-V2 = (-(VA*(2 - (CA0*CB0)/Ksp)) + sqrt((VA*(2 - (CA0*CB0)/Ksp))**2 - 4*VA**2))/2.0
-
-#print sprintf('%7.2f mL', 1000*V1)
-#print sprintf('%7.2f mL', 1000*V2)
-
-n(VB) = ((CB0*VB + CA0*VA) - sqrt((-(CB0*VB + CA0*VA))**2 - 4*(CB0*VB*CA0*VA - Ksp*(VA + VB)**2)))/2.0
-
-CA(VB)  = VB < V1 ? CA0*VA/(VA + VB) : VB < V2 ? (CA0*VA - n(VB))/(VA + VB) : CA0*VA/(VA + VB)
-CB(VB)  = VB < V1 ? CB0*VB/(VA + VB) : VB < V2 ? (CB0*VB - n(VB))/(VA + VB) : CB0*VB/(VA + VB)
-
-Qsp(VB) = CA(VB)*CB(VB)
-
-pH(VB) = -log10((-(CB(VB) - CA(VB)) + sqrt( (CB(VB) - CA(VB))**2 + 4*Kw))/2.0)
-
-# ==================================================
-#set format x '% .6f'
-set format x '% E'
-#set format y '% .6f'
-set format y '% E'
-set samples 500
-set dummy VB
-
-set table 'ConcA_Hypt.dat'
-    plot [0:2*VA][0:CA0] CA0*VA/(VA + VB) w l
-unset table
-
-set table 'ConcB_Hypt.dat'
-    plot [0:2*VA][0:CA0] CB0*VB/(VA + VB) w l
-unset table
-
-set table 'Produ_Hypt.dat'
-    plot [0:2*VA][0:*] (CA0*VA/(VA + VB))*(CB0*VB/(VA + VB)) w l
-unset table
-
-set table 'ConcA_Corr.dat'
-    plot [0:2*VA][0:*] (CA0*VA - n(VB))/(VA + VB) w l
-unset table
-
-set table 'ConcB_Corr.dat'
-    plot [0:2*VA][0:*] (CB0*VB - n(VB))/(VA + VB) w l
-unset table
-
-set table 'Produ_Corr.dat'
-    plot [0:2*VA][0:*] ((CA0*VA - n(VB))/(VA + VB))*((CB0*VB - n(VB))/(VA + VB))  w l
-unset table
-
-set table 'ConcA_Real.dat'
-    plot [0:2*VA][0:*] CA(VB) w l
-unset table
-
-set table 'ConcB_Real.dat'
-    plot [0:2*VA][0:*] CB(VB) w l
-unset table
-
-set table 'Produ_Real.dat'
-    plot [0:2*VA][0:*] Qsp(VB)  w l
-unset table
-
-set table 'Titration.dat'
-    plot [0:2*VA] pH(VB) w l
-unset table
-unset format
-# ==================================================
-set terminal pdfcairo size 8.5 in, 6 in font 'Times New Roman, 20'
-set output 'Multiple_Axes.pdf'
-
-set lmargin screen 0.085
-set tmargin screen 0.940
-set rmargin screen 0.670
-set bmargin screen 0.130
-
-set grid lt -1 lc 'gray'
-
-unset key
-
-set style line 1 lc '#e41a1c'
-set style line 2 lc '#377eb8'
-set style line 3 lc '#4daf4a'
-set style line 4 lc '#984ea3'
-set style line 5 lc '#ff7f00'
-
-set tics out nomirror
-set xlabel 'Volume of BOH added / mL'
-set xrange[0:2000*VA]
-
-set multiplot
-
-# ==================================================
-set border 7
-set xtics 25
-set ytics 1
-set ylabel 'pH'
-set yrange[0:14]
-
-if( V1 != V2 && V1 > 0 ){
-    set x2tics (sprintf('%.2f mL', 1000*V1) 1000*V1, sprintf('%.2f mL', 1000*V2) 1000*V2) out offset 1,-0.5
-}
-
-# A curva de titulação
-plot 'Titration.dat' u (1000*$1):2 w l ls -1 lw 2 
-
-# ==================================================
-unset label
-unset object
-unset xtics
-unset x2tics
-unset ytics
-unset xlabel
-unset ylabel
-unset yrange
-set border 8 ls 1
-set yrange [0:CA0]
-set y2range[0:CA0]
-#set y2tics 0.01 
-set y2tics add ("0" 0) offset -0.5,0
-set y2label '[A^{–}] / mol L^{–1}' tc ls 1 offset -1.5,0 
-set format y2 '%.2f'
-
-set label '{/:Bold [A^{–}]}' at 18, second 0.096 center tc ls 1
-set label '{/:Bold [B^{+}]}' at 18, second 0.024 center tc ls 2
-
-#set label '{/:Bold [A^{–}]}' at 75, second 0.060 center tc ls 1
-#set label '{/:Bold Hypothetical}' at 150, second 0.060 center tc ls 2 rotate by 16 offset 0,1
-
-if( V1 != V2 && V1 > 0 ){
-    set object rectangle from 1000*V1,0 to 1000*V2,CA0 fc 'gray' fs transparent solid 0.2 noborder back
-#    set x2tics (sprintf('%.2f mL', 1000*V1) 1000*V1, sprintf('%.2f mL', 1000*V2) 1000*V2) tc 'black' out offset 1,-0.5
-    Vlim = V2 > 2*VA ? 0.2 : V2
-    set label '{/:Bold Precipitation of BA}' at 500*(V1 + Vlim),0.0100 center tc 'gray40'
-}
-
-plot \
-    'ConcA_Hypt.dat' u (1000*$1):($1 > V1 && $1 < V2 ? $2 : NaN) w l ls 1 lw 2 dt 2   ,\
-    'ConcA_Real.dat' u (1000*$1):2 w l ls 1 lw 2        ,\
-    'ConcB_Hypt.dat' u (1000*$1):($1 > V1 && $1 < V2 ? $2 : NaN) w l ls 2 lw 2 dt 2   ,\
-    'ConcB_Real.dat' u (1000*$1):2 w l ls 2 lw 2
-
-# ==================================================
-unset border
-unset tics
-unset label
-unset object
-unset y2label
-unset x2tics
-unset y2tics
-
-set yrange [0:2.5E-3]
-set y2range[0:2.5E-3]
-
-#set yrange [0:real(sprintf('%g%s', ceil(sprintf('%E', Ksp)[:8]), sprintf('%E', Ksp)[9:]))]
-#set y2range[0:real(sprintf('%g%s', ceil(sprintf('%E', Ksp)[:8]), sprintf('%E', Ksp)[9:]))]
-
-set label '{/:Bold {/:Italic Q}_{sp}' at 25, second 1.55E-3 left tc ls 3 #font 'Times New Roman'
-#set label '{/:Bold {/:Italic Q}_{sp} = {/:Italic K}_{sp}' at 70, second Ksp left tc ls 3 offset 0,1
-
-plot \
-    'Produ_Hypt.dat' u (1000*$1):($1 > V1 && $1 < V2 ? $2 : NaN) w l ls 3 lw 2 dt 2   ,\
-    'Produ_Real.dat' u (1000*$1):2 w l ls 3 lw 2
-
-# ==================================================
-set rmargin screen 0.770
-set border 8 ls 2
-set tics out nomirror
-unset label
-unset xtics
-unset ytics
-set y2range[0:CA0]
-set y2tics add ("0" 0)
-set y2label '[B^{+}] / mol L^{–1}' tc ls 2 offset -1.0,0
-
-# eixo azul
-plot 1/0
-
-# ==================================================
-set rmargin screen 0.870
-set border 8 ls 3
-set tics out nomirror
-unset xtics
-unset ytics
-set y2range[0:2.5E-3]
-#set y2range[0:real(sprintf('%g%s', ceil(sprintf('%E', Ksp)[:8]), sprintf('%E', Ksp)[9:]))]
-#set y2tics 5E-4 
-set y2tics add ("0" 0, "{/:Italic K}_{sp}" Ksp) offset -0.5,0
-set y2label '{/:Italic Q}_{sp}' tc ls 3 offset -2.0,0
-set format y2 '%.1t×10^{%T}'
-
-# Eixo verde
-plot 1/0
-
-#print real(ceil(sprintf('%E', Ksp)[:8]))
-#print sprintf('%E', Ksp)[9:]
-#print real(sprintf('%g%s', ceil(sprintf('%E', Ksp)[:8]), sprintf('%E', Ksp)[9:]))
-
-# ==================================================
-unset multiplot
-            </code></pre>
-        </div>
-      </div>
-    </div>
+          <h1>Titulação de um Ácido Forte com uma Base Forte</h1>
+          <p class="bd-lead">Nesse artigo vamos aprender um pouco sobre as titulações ácido–base envolvendo um ácido forte e uma base forte.</p>
+          <p>Considere a seguinte reação entre um ácido forte, $\ce{HA}$, e uma base forte, $\ce{BOH}$. As reações envolvidas são:</p>
+          <p>$$\ce{HA + H2O -> H3O+ + A-}$$</p>
+          <p>$$\ce{BOH ->B+ + OH-}$$</p>
+        </div><!--div class="col-12"-->
+      </div><!--div class="row"-->
+    </div><!--div class="container"-->
   </body>
 </html>
