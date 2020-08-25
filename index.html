@@ -1,122 +1,172 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Gustavo R Sousa Jr · Material online para o ensino de Química</title>
-    <!--CSS do Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!--JS, Popper.js e jQuery do Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <!--MathJax-->
-    <script>MathJax = {tex:{ inlineMath: [['$', '$'], ['\\(', '\\)']] } };</script>
+    <!--Codificação do documento-->
+    <meta charset="UTF-8">
+    <!--Informações do dispositivo de visualização-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!--Título do documento-->
+    <title>Modelo - Prof. Gustavo Sousa Jr</title>
+    <!--Criando um link com o arquivo CSS do Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!--CSS para o sumário automático. Ver: https://afeld.github.io/bootstrap-toc/-->
+    <link rel="stylesheet" href="css/bootstrap-toc.css">
+    <!--Criando um link com os arquivos javascript do Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!--Criando um link com os arquivos javascript do MathJax-->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
     <!--Favicon-->
     <link rel="icon" href="imagens/logo-32.png" type="image/png" sizes="32x32">
   </head>
   <body>
     <header>
       <!--Barra de navegação-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <!--A logo do site-->
+          <a class="navbar-brand" href="https://grsousajunior.github.io/">
             <img src="imagens/logo-32.png" width="32" height="32" alt="">
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+          <!--O botão alternador da visualização-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoBarraNavegacao" aria-controls="conteudoBarraNavegacao" aria-expanded="false" aria-label="Alternador de navegação">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!--O conteúdo da barra de navegação-->
+          <div id="conteudoBarraNavegacao" class="collapse navbar-collapse">
             <div class="navbar-nav mr-auto">
-                <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Físico-Química</a>
-                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Química Analítica</a>
-                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Química Inorgânica</a>
-                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Química Orgânica</a>
-                <a class="nav-item nav-link" href="#">Sobre</a>
+              <a class="nav-item nav-link active">Início<span class="sr-only">(atual)</span></a>
+              <a class="nav-item nav-link" href="/modelo/quimica-geral/">Química Geral</a>
+              <a class="nav-item nav-link" href="/modelo/quimica-organica/">Química Orgânica</a>
+              <a class="nav-item nav-link" href="/modelo/quimica-inorganica/">Química Inorgânica</a>
+              <a class="nav-item nav-link" href="/modelo/quimica-analitica/">Química Analítica</a>
+              <a class="nav-item nav-link" href="/modelo/fisico-quimica/">Físico-Química</a>
+              <a class="nav-item nav-link" href="/modelo/fisico-quimica/">Sobre</a>
             </div>
           </div>
-        </div><!--div class="container"-->
-      </nav>
-  </header>
+        </div>
+      </nav><!--/navbar-->
+    </header>
+    <!--Jumbotron-->
+    <div class="jumbotron text-light" style="background-color: #007dff; border-radius: 0;">
+      <div class="container">
+        <h1 class="display-4">Título principal</h1>
+        <p class="lead">
+          Algum texto breve que resume o conteúdo da página.
+        </p>
+      </div>
+    </div><!--/jumbotron-->
+    
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col">
+          <h4>Conceito de equilíbrio</h4>
+          <p>Começaremos examinando reações reversíveis e o conceito de equilíbrio.</p>
+        </div>
+        <div class="col">
+          <h4>Constante de equilíbrio</h4>
+          <p>Definiremos a constante de equilíbrio, com base na velocidade das reações direta e inversa, aprendendo a escrever expressões da consante de equílibrio para reações homogêneas.</p>
+        </div>
+        <div class="col">
+          <h4>Entendendo e trabalhando com constantes de equilíbrio</h4>
+          <p>Aprenderemos a interpretar a magnitide de uma constante de equilíbrio e como o seu valor depende da maneirea com que a equação química correspondente é expressa.</p>
+        </div>
+        <div class="col">
+          <h4>Equilíbrios heterogêneos</h4>
+          <p>Aprenderemos a escrever expressões da constante de equilíbrios para reações heterogêneas.</p>
+        </div>
+        <div class="col">
+          <h4>Cálculo das constantes de equilíbrio</h4>
+          <p>Veremos que o valor de uma constante de equilíbrio pode ser calculado com base em concentrações de reagentes e produtos no equilíbrios.</p>
+        </div>
+        <div class="col">
+          <h4>Aplicações das constantes de equilíbrio</h4>
+          <p>Aprenderemos que as constantes de equilíbrios podem ser usadas para prever as concentrações de reagentes e produtos no equilíbrio, bemo como para determinar que direção uma reações deve seguir para que o equilíbrio seja atingido.</p>
+        </div>
+        <div class="col">
+          <h4>Princípio de Le Châtelier</h4>
+          <p>Discutiremos o princípio de Le Châtelier, que determina de que maneira um sistema em equilíbrio responde a variações de concentração, volume, pressão e temperatura.</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!--Conteúdo-->
+    </div><!--/container-->
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h1>Titulação de um Ácido Forte com uma Base Forte</h1>
-          <p class="lead">Nesse artigo vamos aprender um pouco sobre as titulações ácido-base envolvendo um ácido forte e uma base forte.</p>
-          <h2>Introdução</h2>
-          <p>
-            A titulação de um ácido forte com uma base forte é caso mais simples dentre as <a href="#">titulações ácido-base</a>. 
-            Uma vez que tanto o ácido quanto a base são fortes, eles se dissociam completamente em água.
-            A titulação tem por objetivo determinar a concentração da solução ácida através da titulação com uma solução básica de concentração conhecida, ou vice versa, 
-            determinar a concentração de uma solução básica através através da titulação com uma solução ácida de concentração conhecida, até que o <a href="#">ponto de equivalência</a>.
-          </p>
+        <!--Conteúdo principal-->
+        <div class="col-md-9">
+          <h2>Primeiro título secundário</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, atque. Quis corrupti amet minima nostrum delectus nihil harum quasi fuga modi asperiores recusandae maiores, reiciendis tempora porro. Possimus, amet nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, error necessitatibus. Iure tempore iusto cumque dolore quis dolor, quasi repudiandae, quibusdam hic, maiores alias rem doloribus praesentium odit rerum nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem tenetur veritatis accusamus culpa, cupiditate rerum earum praesentium hic, cumque iusto delectus a quis ut fuga error voluptas harum velit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis aperiam maxime quidem a quod adipisci delectus veritatis sit minima, architecto vel nobis, hic natus, eos molestias deserunt vitae praesentium nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit expedita adipisci esse, vitae corrupti voluptatum ipsum ea voluptatem fugiat sunt obcaecati voluptates, molestias, ducimus nulla delectus cumque assumenda minima officiis.</p>
+ 
+          <h3>Subnível 1.1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi hic eaque animi incidunt rerum, corrupti sequi voluptatibus facilis consequatur voluptate possimus quibusdam sunt ab itaque quasi, id laudantium minima! Veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, modi iusto. Deleniti, animi assumenda? Officiis sed nulla aperiam inventore, quasi quis ipsa, ipsam provident atque labore neque, voluptatibus voluptas rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate a laboriosam non facilis unde ducimus, quo est at, atque maxime natus temporibus! Maiores, tempora fuga? Suscipit repellat facilis eligendi autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolor nobis perspiciatis iure cum sequi deserunt, placeat laudantium, accusantium dicta dolorum nulla voluptatem neque quibusdam odit provident facilis dolores sed! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam vel cupiditate doloremque, eum sequi expedita hic quidem nulla exercitationem est repellat numquam repudiandae, dolorum quo ratione dolores reprehenderit animi? Quas.</p>
+
+          <img src="imagens/molecula-teste-linear-4.png" alt="imagem tamanho 2" class="mx-auto d-block" style="width: 240px; max-width:100%; height: auto;">
           
-          <h2>O ácido forte</h2>
-          <p>
-            Um <a href="#">ácido forte</a> está completamente dissociado em solução aquosa. 
-            Isso siginifica que, quando colocado em água, todo o ácido irá se separar em íons, ao contrário do que acontece com um <a href="#">ácido fraco</a>.
-            Se denotarmos um ácido forte qualquer por $\ce{HA}$, a equação geral de dissociação pode ser escrita como:
-          </p>
-          <p>
-            $$\ce{HA(aq) + H2O(l) -> H3O+(aq) + A-(aq)}\tag{1}\label{eq:dissAcidoForte}$$
-          </p>
-          <p>
-            com $\ce{H3O+}$ represetando o <a href="#">hidrônio</a> e $\ce{A-}$ representando a <a href="#">base conjugada</a> de $\ce{HA}$.
-          </p>
-
-          <h2>A base forte</h2>
-          <p>
-            A exemplo do ocorrer com o ácido forte, uma <a href="#">base forte</a> também está completamente ionizada em solução aquosa.
-            Isso significa que a bases se converterá completamente em seus íons quando colocada em água.
-            Representado por $\ce{BOH}$ a base forte, a equação geral de dissociação pode ser escrita como:
-          </p>
-          <p>$$\ce{BOH(aq) -> B+(aq) + OH-(aq)}\tag{2}\label{eq:dissBaseForte}$$</p>
-          <p>com $\ce{OH-}$ representando o <a href="#">hidróxido</a> e $\ce{B+}$ representando o <a href="#">ácido conjugado</a> de $\ce{BOH}$</p>
-
-          <h2>A autodissociação da água</h2>
-          <p>
-            A própria água pode sofre dissociação. O equilíbrio envolvido a constante associada são:
-          </p>
-          <p>$$\ce{2 H2O(aq) <=> H3O+(aq) + OH-(aq)}\tag{3}\label{eq:dissAgua}$$</p>
-          <p>
-            cuja expressão da constante de equilíbrio é:
-          </p>
-          <p>$$K_\text{w} = \ce{[H3O+][OH-]}\tag{4}\label{eq:Kw}$$</p>
+          <h3>Subnível 1.2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modi voluptas, praesentium aliquid maiores dolorum esse excepturi quo laudantium ut fugiat quasi fugit eveniet veniam, accusamus quia omnis, magni architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laboriosam incidunt repellendus ab tempora asperiores vel modi dolores. Tenetur laboriosam consequatur magnam sint cupiditate temporibus nihil rem ipsa ipsum maiores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi perspiciatis autem obcaecati laudantium amet suscipit, laborum eligendi assumenda et. Necessitatibus eum itaque modi perspiciatis ipsum in adipisci tempora quam illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iure dolorem atque aspernatur ullam maiores, veritatis dolore adipisci! Veniam nobis earum repudiandae quam. Nostrum, dolor earum assumenda molestias ad quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit natus molestias sit alias numquam assumenda nesciunt animi optio qui ea, perferendis eaque velit eum impedit, nobis, tenetur reprehenderit temporibus suscipit?</p>
+  
+          <h3>Subnível 1.3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure debitis et ipsa nihil minima enim aspernatur optio repellendus tenetur sed totam ad deleniti error facilis, neque possimus ullam vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsa aliquam veritatis aut maiores debitis necessitatibus corporis vel, adipisci illo exercitationem voluptas sit repellendus pariatur distinctio, accusamus qui rem culpa! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus iste unde beatae doloremque, ex est obcaecati veritatis, impedit quasi, culpa omnis quo provident! Officia praesentium ad ab ducimus, provident et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat possimus officia ad minima? Temporibus ducimus laborum sequi at repellendus molestiae esse eos! Sapiente unde quasi accusamus impedit consectetur ipsum exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptatem officiis. Error nesciunt debitis, quae sed dignissimos saepe soluta cum iure autem voluptas tempore amet, a at praesentium similique. Reprehenderit.</p>
           
-          <h2>A reação de neutralização</h2>
-          <p>
-            A determinação da concentração da solução ácida (ou básica) a partir de uma solução básica (ou ácida) de concentração conhecida envolve uma reação de neutralização.
-          </p>
-          <h2>Balanço de carga</h2>
-          <p>
-            $$\ce{[H3O+] + [B+] = [OH-] + [A-]}\tag{5}\label{eq:balmass}$$
-          </p>
-          
-          <h2>Balanço de massa</h2>
-          <p>$$\begin{align}
-            C_\ce{BOH} &= \ce{[B+]}\tag{6a}\label{eq:balmassBase}\\
-            C_\ce{HA}  &= \ce{[A-]}\tag{6b}\label{eq:balmassAc}
-            \end{align}$$
-          </p>
-
-          <h2>Equação geral</h2>
-          <p>
-            Substituindo  as equações $\eqref{eq:Kw}$, $\eqref{eq:balmassBase}$ e $\eqref{eq:balmassBase}$ na equação $\eqref{eq:balmass}$ podemos escrever:
-          </p>
-          <p>
-            $$\ce{[H3O+]} + C_\ce{BOH} = \displaystyle\frac{K_\text{w}}{\ce{[H3O+]}} + C_\ce{HA}\tag{7}\label{eq:geral-1}$$
-          </p>
-          <p>A $\eqref{eq:geral-1}$ pode ser reescrita na forma</p>
-          <p>$$\ce{[H3O+]}^2 + \ce{[H3O+]}\left(C_\ce{BOH} - C_\ce{HA} \right) - K_\text{w} = 0\tag{8}\label{eq:geral-final}$$</p>
-          <p>que tem a forma de uma equação do segundo grau:</p>
-          <p>$$ax^2 + bx + c = 0 $$</p>
-          <p>com $x = \ce{[H3O+]}$, $a = 1$, $b = \left(C_\ce{BOH} - C_\ce{HA} \right)$ e $c = K_\text{w}$.</p>
-
-        </div><!--div class="col-12"-->
-      </div><!--div class="row"-->
-    </div><!--div class="container"-->
+          <h2>Segundo título secundário</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, alias! Molestiae, saepe. Esse magnam eligendi voluptas eum modi quas a deserunt fugiat doloremque mollitia accusamus, incidunt quaerat quo corporis! Eos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod perferendis quos amet dolorem facere, corrupti explicabo accusamus, at doloremque nostrum, consectetur laudantium sunt? Fuga quidem in non numquam fugiat odit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, repellendus? Accusamus minus veritatis delectus eligendi, illo obcaecati consectetur dolorum maiores, minima tenetur magni! Expedita neque dolor impedit excepturi cumque corporis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae possimus temporibus iste quam ducimus ipsam at dolores error voluptatum, architecto in aliquam dolorum similique debitis corrupti amet fuga nesciunt incidunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi perferendis, provident consectetur nesciunt earum sequi voluptatibus dicta laboriosam facere voluptate inventore id odio unde quo dolorum, consequuntur, sapiente quae enim.</p>
+        
+        </div>
+      </div>
+    </div><!--/container-->
+    <!--Rodapé-->
+    <footer class="container-fluid bg-light mt-5 p-3">
+      <div class="container">
+        <ul class="list-group-horizontal-lg pl-0">
+          <li class="d-inline-block pr-3">
+            <a href="#">Química Geral</a>
+          </li>
+          <li class="d-inline-block pr-3">
+            <a href="#">Química Orgânica</a>
+          </li>
+          <li class="d-inline-block pr-3">
+            <a href="#">Química Inorgânica</a>
+          </li>
+          <li class="d-inline-block pr-3">
+            <a href="#">Química Analítica</a>
+          </li>
+          <li class="d-inline-block pr-3">
+            <a href="#">Físico-Química</a>
+          </li>
+        </ul>
+        <p class="mb-0">
+          © 2020. Um projeto de
+          <a href="https://github.com/grsousajunior">Gustavo R Sousa, Jr</a>.
+        </p>
+        <p class="mb-0">
+          <small> Construído usando <a href="https://getbootstrap.com/">Bootstrap</a>
+          e hospedado usando o
+          <a href="https://pages.github.com/">GitHub pages</a>.</small>
+        </p>
+      </div>
+    </footer><!--/container-fluid-->
+    <!--Adiciona link às divisões do documento. Ver: https://bryanbraun.com/anchorjs/-->
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+    <style>
+      /**
+      * Create an invisible pseudo-element and make it the height of the
+      * sticky navbar so the jump takes you to a location above the link
+      */
+      :target::before {
+        content: "";
+        display: block;
+        margin-top: -80px;
+        height: 80px;
+        width: 1px;
+        }
+    </style>
+    <script>
+      anchors.add();
+      anchors.remove('h4, h5');
+    </script>
   </body>
 </html>
