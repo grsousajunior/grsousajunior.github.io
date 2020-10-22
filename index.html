@@ -1,155 +1,30 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <!--Codificação do documento-->
-    <meta charset="UTF-8">
-    <!--Informações do dispositivo de visualização-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!--Título do documento-->
-    <title>Modelo - Prof. Gustavo Sousa Jr</title>
-    <!--Criando um link com o arquivo CSS do Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <!--CSS para o sumário automático. Ver: https://afeld.github.io/bootstrap-toc/-->
-    <link rel="stylesheet" href="css/bootstrap-toc.css">
-    <!--Criando um link com os arquivos javascript do Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <!--Criando um link com os arquivos javascript do MathJax-->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
-    <!--Favicon-->
-    <link rel="icon" href="imagens/logo-32.png" type="image/png" sizes="32x32">
-  </head>
-  <body>
-    <header>
-      <!--Barra de navegação-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <!--A logo do site-->
-          <a class="navbar-brand" href="https://grsousajunior.github.io/">
-            <img src="imagens/logo-32.png" width="32" height="32" alt="">
-          </a>
-          <!--O botão alternador da visualização-->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoBarraNavegacao" aria-controls="conteudoBarraNavegacao" aria-expanded="false" aria-label="Alternador de navegação">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!--O conteúdo da barra de navegação-->
-          <div id="conteudoBarraNavegacao" class="collapse navbar-collapse">
-            <div class="navbar-nav mr-auto">
-              <a class="nav-item nav-link active">Início<span class="sr-only">(atual)</span></a>
-              <a class="nav-item nav-link" href="/modelo/quimica-geral/">Química Geral</a>
-              <a class="nav-item nav-link" href="/modelo/quimica-organica/">Química Orgânica</a>
-              <a class="nav-item nav-link" href="/modelo/quimica-inorganica/">Química Inorgânica</a>
-              <a class="nav-item nav-link" href="/modelo/quimica-analitica/">Química Analítica</a>
-              <a class="nav-item nav-link" href="/modelo/fisico-quimica/">Físico-Química</a>
-              <a class="nav-item nav-link" href="/modelo/fisico-quimica/">Sobre</a>
-            </div>
-          </div>
-        </div>
-      </nav><!--/navbar-->
-    </header>
-    <!--Jumbotron-->
-    <div class="jumbotron text-light" style="background-color: #007dff; border-radius: 0;">
-      <div class="container">
-        <h1 class="display-4">Título principal</h1>
-        <p class="lead">
-          Algum texto breve que resume o conteúdo da página.
-        </p>
-      </div>
-    </div><!--/jumbotron-->
-    
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-5">
-          <h2>Química Geral</h2>
-        </div>
-        <div class="col-md-7">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptate consequatur ipsum ipsam enim at esse ullam, dicta pariatur praesentium! Aperiam quia, placeat incidunt eligendi tempore unde reprehenderit ducimus fuga!
-        </div>
-      </div>
-      <div class="row align-items-center">
-        <div class="col-md-5">
-          <h2>Química Orgânica</h2>
-        </div>
-        <div class="col-md-7">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptate consequatur ipsum ipsam enim at esse ullam, dicta pariatur praesentium! Aperiam quia, placeat incidunt eligendi tempore unde reprehenderit ducimus fuga!
-        </div>
-      </div>
-      <div class="row align-items-center">
-        <div class="col-md-5">
-          <h2>Química Inorgânica</h2>
-        </div>
-        <div class="col-md-7">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptate consequatur ipsum ipsam enim at esse ullam, dicta pariatur praesentium! Aperiam quia, placeat incidunt eligendi tempore unde reprehenderit ducimus fuga!
-        </div>
-      </div>
-      <div class="row align-items-center">
-        <div class="col-md-5">
-          <h2>Química Analítica</h2>
-        </div>
-        <div class="col-md-7">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptate consequatur ipsum ipsam enim at esse ullam, dicta pariatur praesentium! Aperiam quia, placeat incidunt eligendi tempore unde reprehenderit ducimus fuga!
-        </div>
-      </div>
-      <div class="row align-items-center">
-        <div class="col-md-5">
-          <h2>Físico-Química</h2>
-        </div>
-        <div class="col-md-7">
-          <img src="imagens/quimica-geral.jpg" alt="" srcset="">
-        </div>
-      </div>
-    </div>
-    <!--Rodapé-->
-    <footer class="container-fluid bg-light mt-5 p-3">
-      <div class="container">
-        <ul class="list-group-horizontal-lg pl-0">
-          <li class="d-inline-block pr-3">
-            <a href="#">Química Geral</a>
-          </li>
-          <li class="d-inline-block pr-3">
-            <a href="#">Química Orgânica</a>
-          </li>
-          <li class="d-inline-block pr-3">
-            <a href="#">Química Inorgânica</a>
-          </li>
-          <li class="d-inline-block pr-3">
-            <a href="#">Química Analítica</a>
-          </li>
-          <li class="d-inline-block pr-3">
-            <a href="#">Físico-Química</a>
-          </li>
-        </ul>
-        <p class="mb-0">
-          © 2020. Um projeto de
-          <a href="https://github.com/grsousajunior">Gustavo R Sousa, Jr</a>.
-        </p>
-        <p class="mb-0">
-          <small> Construído usando <a href="https://getbootstrap.com/">Bootstrap</a>
-          e hospedado usando o
-          <a href="https://pages.github.com/">GitHub pages</a>.</small>
-        </p>
-      </div>
-    </footer><!--/container-fluid-->
-    <!--Adiciona link às divisões do documento. Ver: https://bryanbraun.com/anchorjs/-->
-    <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
-    <style>
-      /**
-      * Create an invisible pseudo-element and make it the height of the
-      * sticky navbar so the jump takes you to a location above the link
-      */
-      :target::before {
-        content: "";
-        display: block;
-        margin-top: -80px;
-        height: 80px;
-        width: 1px;
-        }
-    </style>
-    <script>
-      anchors.add();
-      anchors.remove('h4, h5');
-    </script>
-  </body>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>My first X3DOM page</title>
+    <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'> </script>
+    <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css'></link>
+</head>
+<body>
+<h1>Using the Inline Node</h1>
+<script>
+    function redNose()
+    {
+        if(document.getElementById('Deer__MA_Nose').getAttribute('diffuseColor')!= '1 0 0')
+            document.getElementById('Deer__MA_Nose').setAttribute('diffuseColor', '1 0 0');
+        else
+            document.getElementById('Deer__MA_Nose').setAttribute('diffuseColor', '0 0 0');
+    }
+</script>
+<p>
+    This example includes an external x3d scene. You can even manipulate its content during runtime.
+</p>
+<x3d width='500px' height='400px'>
+    <scene>
+            <viewpoint position="-1.94639 1.79771 -2.89271" orientation="0.03886 0.99185 0.12133 3.75685"></viewpoint>
+            <Inline nameSpaceName="Deer" mapDEFToID="true"
+                    onclick='redNose();' url="Deer.x3d" />
+    </scene>
+</x3d>
+</body>
 </html>
