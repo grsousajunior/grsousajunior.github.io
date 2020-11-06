@@ -1,122 +1,30 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Gustavo R Sousa Jr · Material online para o ensino de Química</title>
-    <!--CSS do Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!--JS, Popper.js e jQuery do Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <!--MathJax-->
-    <script>MathJax = {tex:{ inlineMath: [['$', '$'], ['\\(', '\\)']] } };</script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <!--Favicon-->
-    <link rel="icon" href="imagens/logo-32.png" type="image/png" sizes="32x32">
-  </head>
-  <body>
-    <header>
-      <!--Barra de navegação-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="imagens/logo-32.png" width="32" height="32" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav mr-auto">
-                <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Físico-Química</a>
-                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Química Analítica</a>
-                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Química Inorgânica</a>
-                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Química Orgânica</a>
-                <a class="nav-item nav-link" href="#">Sobre</a>
-            </div>
-          </div>
-        </div><!--div class="container"-->
-      </nav>
-  </header>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1>Titulação de um Ácido Forte com uma Base Forte</h1>
-          <p class="lead">Nesse artigo vamos aprender um pouco sobre as titulações ácido-base envolvendo um ácido forte e uma base forte.</p>
-          <h2>Introdução</h2>
-          <p>
-            A titulação de um ácido forte com uma base forte é caso mais simples dentre as <a href="#">titulações ácido-base</a>. 
-            Uma vez que tanto o ácido quanto a base são fortes, eles se dissociam completamente em água.
-            A titulação tem por objetivo determinar a concentração da solução ácida através da titulação com uma solução básica de concentração conhecida, ou vice versa, 
-            determinar a concentração de uma solução básica através através da titulação com uma solução ácida de concentração conhecida, até que o <a href="#">ponto de equivalência</a>.
-          </p>
-          
-          <h2>O ácido forte</h2>
-          <p>
-            Um <a href="#">ácido forte</a> está completamente dissociado em solução aquosa. 
-            Isso siginifica que, quando colocado em água, todo o ácido irá se separar em íons, ao contrário do que acontece com um <a href="#">ácido fraco</a>.
-            Se denotarmos um ácido forte qualquer por $\ce{HA}$, a equação geral de dissociação pode ser escrita como:
-          </p>
-          <p>
-            $$\ce{HA(aq) + H2O(l) -> H3O+(aq) + A-(aq)}\tag{1}\label{eq:dissAcidoForte}$$
-          </p>
-          <p>
-            com $\ce{H3O+}$ represetando o <a href="#">hidrônio</a> e $\ce{A-}$ representando a <a href="#">base conjugada</a> de $\ce{HA}$.
-          </p>
-
-          <h2>A base forte</h2>
-          <p>
-            A exemplo do ocorrer com o ácido forte, uma <a href="#">base forte</a> também está completamente ionizada em solução aquosa.
-            Isso significa que a bases se converterá completamente em seus íons quando colocada em água.
-            Representado por $\ce{BOH}$ a base forte, a equação geral de dissociação pode ser escrita como:
-          </p>
-          <p>$$\ce{BOH(aq) -> B+(aq) + OH-(aq)}\tag{2}\label{eq:dissBaseForte}$$</p>
-          <p>com $\ce{OH-}$ representando o <a href="#">hidróxido</a> e $\ce{B+}$ representando o <a href="#">ácido conjugado</a> de $\ce{BOH}$</p>
-
-          <h2>A autodissociação da água</h2>
-          <p>
-            A própria água pode sofre dissociação. O equilíbrio envolvido a constante associada são:
-          </p>
-          <p>$$\ce{2 H2O(aq) <=> H3O+(aq) + OH-(aq)}\tag{3}\label{eq:dissAgua}$$</p>
-          <p>
-            cuja expressão da constante de equilíbrio é:
-          </p>
-          <p>$$K_\text{w} = \ce{[H3O+][OH-]}\tag{4}\label{eq:Kw}$$</p>
-          
-          <h2>A reação de neutralização</h2>
-          <p>
-            A determinação da concentração da solução ácida (ou básica) a partir de uma solução básica (ou ácida) de concentração conhecida envolve uma reação de neutralização.
-          </p>
-          <h2>Balanço de carga</h2>
-          <p>
-            $$\ce{[H3O+] + [B+] = [OH-] + [A-]}\tag{5}\label{eq:balmass}$$
-          </p>
-          
-          <h2>Balanço de massa</h2>
-          <p>$$\begin{align}
-            C_\ce{BOH} &= \ce{[B+]}\tag{6a}\label{eq:balmassBase}\\
-            C_\ce{HA}  &= \ce{[A-]}\tag{6b}\label{eq:balmassAc}
-            \end{align}$$
-          </p>
-
-          <h2>Equação geral</h2>
-          <p>
-            Substituindo  as equações $\eqref{eq:Kw}$, $\eqref{eq:balmassBase}$ e $\eqref{eq:balmassBase}$ na equação $\eqref{eq:balmass}$ podemos escrever:
-          </p>
-          <p>
-            $$\ce{[H3O+]} + C_\ce{BOH} = \displaystyle\frac{K_\text{w}}{\ce{[H3O+]}} + C_\ce{HA}\tag{7}\label{eq:geral-1}$$
-          </p>
-          <p>A $\eqref{eq:geral-1}$ pode ser reescrita na forma</p>
-          <p>$$\ce{[H3O+]}^2 + \ce{[H3O+]}\left(C_\ce{BOH} - C_\ce{HA} \right) - K_\text{w} = 0\tag{8}\label{eq:geral-final}$$</p>
-          <p>que tem a forma de uma equação do segundo grau:</p>
-          <p>$$ax^2 + bx + c = 0 $$</p>
-          <p>com $x = \ce{[H3O+]}$, $a = 1$, $b = \left(C_\ce{BOH} - C_\ce{HA} \right)$ e $c = K_\text{w}$.</p>
-
-        </div><!--div class="col-12"-->
-      </div><!--div class="row"-->
-    </div><!--div class="container"-->
-  </body>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>My first X3DOM page</title>
+    <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'> </script>
+    <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css'></link>
+</head>
+<body>
+<h1>Using the Inline Node</h1>
+<script>
+    function redNose()
+    {
+        if(document.getElementById('Deer__MA_Nose').getAttribute('diffuseColor')!= '1 0 0')
+            document.getElementById('Deer__MA_Nose').setAttribute('diffuseColor', '1 0 0');
+        else
+            document.getElementById('Deer__MA_Nose').setAttribute('diffuseColor', '0 0 0');
+    }
+</script>
+<p>
+    This example includes an external x3d scene. You can even manipulate its content during runtime.
+</p>
+<x3d width='500px' height='400px'>
+    <scene>
+            <viewpoint position="-1.94639 1.79771 -2.89271" orientation="0.03886 0.99185 0.12133 3.75685"></viewpoint>
+            <Inline nameSpaceName="Deer" mapDEFToID="true"
+                    onclick='redNose();' url="Deer.x3d" />
+    </scene>
+</x3d>
+</body>
 </html>
