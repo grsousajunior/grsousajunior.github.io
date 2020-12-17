@@ -6,13 +6,24 @@
     <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css'/>
 </head>
 <body>
-<h1>Using the Inline Node</h1>
+<h1>Testando os modelos moleculas</h1>
 <p>
-    This example includes an external x3d scene. You can even manipulate its content during runtime.
+    Este exemplo inclui três cenas x3d a partir de arquivos internos. É possíl manupular o modelos em tempo de execução.
 </p>
-<x3d width='500px' height='400px'>
+<x3d width='400px' height='400px'>
     <scene>
-            <Inline url="cyclodecane.x3d" />
+            <Inline url="methane-bas-color_2.x3d" />
+    </scene>
+</x3d>
+<x3d width='400px' height='400px'>
+    <scene>
+        <Inline url="methane-CPK-color_2.x3d"/>
+    </scene>
+</x3d>
+    
+<x3d width='400px' height='400px'>
+    <scene>
+        <Inline url="methane-sticks-color_2.x3d"/>
     </scene>
 </x3d>
 </body>
