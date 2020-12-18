@@ -1,22 +1,6 @@
-# Bem vindo ao meu repositório público
+# Prof. Gustavo Sousa Jr
 
-Ainda estou aprendendo a usar o `GitHub` e o `GitHub Pages`.
-Portanto não haverá muita coisa aqui.  
-De qualquer forma, agradeço a visita.
+Esta é minha página pessoal.
+O objetivo aqui é organizar conteúdos voltados para Química, através de materiais de apoio como hipertextos, modelos 3D, programas, aplicativos ou quaisquer ferramentas que possam ajudar no estudo, ensino e aprendizado desse belo ramo da ciência.
 
-Forte abraço!
-
-<!--
-**grsousajunior/grsousajunior** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+&copy; 2020. Gustavo Sousa Jr. Hospedado no [GitHub](https://github.com/) usando o [GitHub Pages](https://pages.github.com/).
