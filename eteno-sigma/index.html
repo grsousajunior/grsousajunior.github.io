@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.6.3/3Dmol-min.min.js"></script>
+    <title>Orbital σ eteno - grsousajunior.github.io</title>
+    <script>
+        var initOrbitals = function(viewer) {
+        $.get('iaoibo.mo2a.cube', function(data){
+            var voldata = new $3Dmol.VolumeData(data, "cube");
+            
+            viewer.addIsosurface(voldata, {isoval: -0.02, color: "#00557f", alpha: 0.85, smoothness: 1});              
+            viewer.addIsosurface(voldata, {isoval: +0.02, color: "#ffaa00", alpha: 0.85, smoothness: 1}); 
+            viewer.setStyle({}, {stick:{}});
+            viewer.zoomTo();
+            viewer.render();
+        }, 'text');
+    };
+    </script>
+</head>
+    <body style="margin:0;padding:0">
+        <div id="glview" class="viewer_3Dmoljs" data-href="eteno.sdf" data-datatype="sdf" data-callback="initOrbitals" data-backgroundcolor="0xffffff" style="width: 100vw; height: 100vh; position: relative;"></div>
+</body>
+</html>
