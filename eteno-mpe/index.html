@@ -5,30 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.6.3/3Dmol-min.min.js"></script>
     <title>Eteno - Mapa de Potencial Eletrostático - grsousajunior.github.io</title>
+    <script>
+        var iniMep = function(viewer){
+            $.get("eldens.cube", function(eldens){
+                $.get("mep.cube", function(mep){
+                    let eldensvol = new $3Dmol.VolumeData(eldens, "cube");
+                    let mepvol = new $3Dmol.VolumeData(mep, "cube");
+                    viewer.addIsosurface(eldensvol, {
+                        isoval: 0.002, 
+                        opacity: 0.85,
+                        smoothness: 2,
+                        voldata: mepvol,
+                        volscheme: {
+                            gradient:"roygb", 
+                            min:-0.030, 
+                            max:+0.030
+                        }
+                    });
+                    viewer.zoomTo();
+                    viewer.render();
+                });
+            });
+        };
+    </script>
 </head>
     <body style="margin:0;padding:0">
-
-    <div id="epsdiv" data-href="eteno.sdf" data-datatype="sdf" style="width: 100vw; height: 100vh; position: relative;"></div>
-
-    <script>
-        var viewer = $3Dmol.createViewer($("#epsdiv"));
-        var callback = function() {};
-        
-        $.get("eldens.cube", function(density) {
-            viewer.addModel(density,"cube");
-            viewer.setStyle({stick:{radius:0.20},sphere:{scale:0.24}});
-            viewer.zoomTo();
-            viewer.render();
-
-            $.get("mep.cube", function(esp) {
-            let densvol = new $3Dmol.VolumeData(density, "cube");
-            let espvol = new $3Dmol.VolumeData(esp, "cube");
-            viewer.addIsosurface(densvol, {isoval: 0.002, opacity: 0.85,
-                smoothness: 4, voldata: espvol,
-                volscheme: {gradient:"roygb", min:-0.030, max:0.030}});
-            viewer.render(callback);
-            });
-        });
-    </script>        
-</body>
+    <div 
+        id="mepdiv" 
+        class="viewer_3Dmoljs" 
+        style="width: 100vw; height: 100vh; position: relative;" 
+        data-href="eteno.sdf" 
+        data-datatype="sdf" 
+        data-style="stick:radius=0.2;sphere:scale=0.25" 
+        data-backgroundcolor="white" 
+        data-callback="iniMep"></div>
+    </body>
 </html>
