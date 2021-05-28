@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.6.4/3Dmol-min.min.js"></script>
+    <title>MPE - Brometo de hidrogênio - grsousajunior.github.io</title>
+    <script>
+      var initShapes = function(viewer){
+        $.get('eldens.cube', function(surface){
+          $.get('mep.cube', function(gradient){
+              let surfvol = new $3Dmol.VolumeData(surface, 'cube');
+              let gradvol = new $3Dmol.VolumeData(gradient, 'cube');
+              viewer.addIsosurface(surfvol, {isoval: 0.002, opacity: 0.85, smoothness: 2, voldata: gradvol, volscheme: {gradient:'roygb', min:-.02, max:.075}});
+              viewer.zoomTo();
+              viewer.render();
+          });
+        }); 
+      };
+    </script>
+    <!-- Info -->
+    <meta name="description" content="Mapa de potencial eletrostático para a molécula do brometo de hidrogênio">
+    <meta name="author" content="Gustavo Sousa Jr">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://grsousajunior.github.io/modelos/haletos/brometo-de-hidrogenio/mpe">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MPE - Brometo de hidrogênio - grsousajunior.github.io">
+    <meta property="og:description" content="Mapa de potencial eletrostático para a molécula do brometo de hidrogênio">
+    <meta property="og:image" content="https://grsousajunior.github.io/modelos/haletos/brometo-de-hidrogenio/mpe/mpe-hbr.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="grsousajunior.github.io">
+    <meta property="twitter:url" content="https://grsousajunior.github.io/modelos/haletos/brometo-de-hidrogenio/mpe">
+    <meta name="twitter:title" content="MPE - Brometo de hidrogênio - grsousajunior.github.io">
+    <meta name="twitter:description" content="Mapa de potencial eletrostático para a molécula do brometo de hidrogênio">
+    <meta name="twitter:image" content="https://grsousajunior.github.io/modelos/haletos/brometo-de-hidrogenio/mpe/mpe-hbr.jpg">
+  </head>
+  <body style="margin:0;padding:0">
+    <div id="gldiv" class="viewer_3Dmoljs" style="width: 100vw; height: 100vh; position: relative;" data-href="../model.sdf" data-style="stick:radius=0.2;sphere:scale=0.25" data-backgroundcolor="white" data-callback="initShapes"></div>
+  </body>
+</html>
