@@ -62,33 +62,33 @@ Para alguns modelos, algumas conformações estão disponíveis.
 
 #### Flúor
 
-- [Fluoreto de hidrogênio](htts://grsousajunior.github.io/hf)
-  - [Fluoreto de hidrogênio (MPE)](htts://grsousajunior.github.io/hf-mpe)
+- [Fluoreto de hidrogênio](https://grsousajunior.github.io/hf)
+  - [Fluoreto de hidrogênio (MPE)](https://grsousajunior.github.io/hf-mpe)
 - [Fluorometano](https://grsousajunior.github.io/fluorometano)
 - [Fluoroetano](https://grsousajunior.github.io/fluoroetano)
 
 #### Cloro
 
-- [Cloreto de hidrogênio](htts://grsousajunior.github.io/hcl)
-  - [Cloreto de hidrogênio (MPE)](htts://grsousajunior.github.io/hcl-mpe)
+- [Cloreto de hidrogênio](https://grsousajunior.github.io/hcl)
+  - [Cloreto de hidrogênio (MPE)](https://grsousajunior.github.io/hcl-mpe)
 - [Clorometano](https://grsousajunior.github.io/clorometano)
 - [Cloroetano](https://grsousajunior.github.io/cloroetano)
 - [Ciclopropano, 1,2-dicloro-, cis](https://grsousajunior.github.io/cis-1-2-diclorociclopropano)
 - [Ciclopropano, 1,2-dicloro-, trans](https://grsousajunior.github.io/trans-1-2-diclorociclopropano)
-- [Dicloroeteno, 1,2-dicloro-, cis-](http://grsousajunior.github.io/cis-1-2-dicloroeteno)
-- [Dicloroeteno, 1,2-dicloro-, trans-](http://grsousajunior.github.io/trans-1-2-dicloroeteno)
+- [Dicloroeteno, 1,2-dicloro-, cis-](https://grsousajunior.github.io/cis-1-2-dicloroeteno)
+- [Dicloroeteno, 1,2-dicloro-, trans-](https://grsousajunior.github.io/trans-1-2-dicloroeteno)
 
 #### Bromo
 
-- [Brometo de hidrogênio](htts://grsousajunior.github.io/hbr)
-  - [Brometo de hidrogênio (MPE)](htts://grsousajunior.github.io/hbr-mpe)
+- [Brometo de hidrogênio](https://grsousajunior.github.io/hbr)
+  - [Brometo de hidrogênio (MPE)](https://grsousajunior.github.io/hbr-mpe)
 - [Bromometano](https://grsousajunior.github.io/bromometano)
 - [Bromoetano](https://grsousajunior.github.io/bromoetano)
 
 #### Iodo
 
-- [Iodeto de hidrogênio](htts://grsousajunior.github.io/hi)
-  - [Iodeto de hidrogênio (MPE)](htts://grsousajunior.github.io/hi-mpe)
+- [Iodeto de hidrogênio](https://grsousajunior.github.io/hi)
+  - [Iodeto de hidrogênio (MPE)](https://grsousajunior.github.io/hi-mpe)
 - [Iodometano](https://grsousajunior.github.io/iodometano)
 - [Iodoetano](https://grsousajunior.github.io/iodoetano)
 
