@@ -2,24 +2,27 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.6.3/3Dmol-min.min.js"></script>
-    <title>Orbital σ eteno - grsousajunior.github.io</title>
-    <script>
-        var initOrbitals = function(viewer) {
-        $.get('iaoibo.mo2a.cube', function(data){
-            var voldata = new $3Dmol.VolumeData(data, "cube");
-            
-            viewer.addIsosurface(voldata, {isoval: -0.02, color: "#00557f", alpha: 0.85, smoothness: 1});              
-            viewer.addIsosurface(voldata, {isoval: +0.02, color: "#ffaa00", alpha: 0.85, smoothness: 1}); 
-            viewer.setStyle({}, {stick:{}});
-            viewer.zoomTo();
-            viewer.render();
-        }, 'text');
-    };
-    </script>
+    <title>Orbital σ do eteno - grsousajunior.github.io</title>
+    <meta http-equiv="refresh" content="0; url=https://grsousajunior.github.io/modelos/hidrocarbonetos/alcenos/eteno/orbital/sigma/">
+    <!-- Info -->
+    <meta name="description" content="Orbital π da molécula do eteno">
+    <meta name="author" content="Gustavo Sousa Jr">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://grsousajunior.github.io/eteno-sigma/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="eteno - grsousajunior.github.io">
+    <meta property="og:description" content="Orbital σ da molécula do eteno">
+    <meta property="og:image" content="https://grsousajunior.github.io/modelos/hidrocarbonetos/alcenos/eteno/orbital/sigma/eteno-sigma.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="grsousajunior.github.io">
+    <meta property="twitter:url" content="https://grsousajunior.github.io/eteno-sigma/">
+    <meta name="twitter:title" content="Eteno - grsousajunior.github.io">
+    <meta name="twitter:description" content="Orbital π da molécula do eteno">
+    <meta name="twitter:image" content="https://grsousajunior.github.io/modelos/hidrocarbonetos/alcenos/eteno/orbital/sigma/eteno-sigma.jpg">
 </head>
-    <body style="margin:0;padding:0">
-        <div id="glview" class="viewer_3Dmoljs" data-href="eteno.sdf" data-datatype="sdf" data-callback="initOrbitals" data-backgroundcolor="0xffffff" style="width: 100vw; height: 100vh; position: relative;"></div>
+<body>
 </body>
 </html>
