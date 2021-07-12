@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.6.3/3Dmol-min.min.js"></script>
-    <title>Orbital 4fz(x2-y2) (cúbico) - grsousajunior.github.io</title>
+    <title>Orbital 4fx3 (cúbico) - grsousajunior.github.io</title>
     <script>
         var initOrbitals = function(viewer) {
         $.get('orbital.cub', function(data){
@@ -49,6 +49,7 @@
             });
             
             viewer.zoomTo();
+            viewer.zoom();
             viewer.render();
         }, 'text');
     };

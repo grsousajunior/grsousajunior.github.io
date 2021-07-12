@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.6.3/3Dmol-min.min.js"></script>
-    <title>Orbital 4fy3 (cúbico) - grsousajunior.github.io</title>
+    <title>Orbital 4fx(z2-y2) (cúbico) - grsousajunior.github.io</title>
     <script>
         var initOrbitals = function(viewer) {
         $.get('orbital.cub', function(data){
             var voldata = new $3Dmol.VolumeData(data, "cube");
-            viewer.addIsosurface(voldata, {isoval: -0.1, color: "#00557f", alpha: 0.00, smoothness: 5});              
-            viewer.addIsosurface(voldata, {isoval: +0.1, color: "#ffaa00", alpha: 0.00, smoothness: 5}); 
+            viewer.addIsosurface(voldata, {isoval: -0.1, color: "#00557f", alpha: 1.00, smoothness: 5});              
+            viewer.addIsosurface(voldata, {isoval: +0.1, color: "#ffaa00", alpha: 1.00, smoothness: 5}); 
             
             var size = 1.5
             var radius = 0.025
@@ -28,6 +28,14 @@
                         radius: radius,
                         radiusRatio: radiusRatio,
                         mid: mid
+            });
+            viewer.addLabel("x", {
+                position: {x:size*1.05, y:0.0, z:0.0}, 
+                fontColor: 'red',
+                fixed: false,
+                backgroundColor: 'white', 
+                backgroundOpacity: 0.0,
+                alignment: 'center'
             });
             // Eixo y
             viewer.addArrow({
@@ -49,6 +57,7 @@
             });
             
             viewer.zoomTo();
+            viewer.zoom();
             viewer.render();
         }, 'text');
     };
