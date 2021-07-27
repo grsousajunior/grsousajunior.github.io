@@ -1,5 +1,5 @@
 .div3Dmol {
-    height: calc(100vh - 56px - 1.125rem);
+    height: 80vh;/*calc(100vh - 56px - 1.125rem);*/
     width: 100%; 
     position: relative;
 }
