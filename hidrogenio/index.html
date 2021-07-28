@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='http://3Dmol.csb.pitt.edu/build/3Dmol-min.js'></script>
+</head>
+<body style="margin: 0;">
+  <header>
+    <nav style="background-color: aquamarine; height: 50px;">
+      <button type="button">Bolas</button>
+      <button type="button">Palitos</button>
+      <button type="button">Bolas e Palitos</button>
+    </nav>
+  </header>
+    <div id="div3Dmol" style='height: calc(100vh - 50px); width: 100vw; position: relative;' class='viewer_3Dmoljs' data-element='molecule' data-type='sdf' data-backgroundcolor='0xffffff' data-style='stick'></div>
+    <textarea id='molecule' style='display: none;'>H2
+  Avogadro
+
+  2  1  0  0  0  0  0  0  0  0999 V2000
+   -0.3700    0.0000    0.0000 H    0  0  0  0  0  0  0  0  0  0  0  0
+    0.3700    0.0000    0.0000 H    0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+M  END
+</textarea>
+</body>
+</html>
