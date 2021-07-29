@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            nav {
+                height: 40px;
+            }
+            main {
+                height: calc(100vh - 40px); 
+                width: 100vw; 
+                position: relative;
+            }
+            button {
+                padding: 0.375rem 0.75rem;
+            }
+        </style>
+        <script src='http://3Dmol.csb.pitt.edu/build/3Dmol-min.js'></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <button type="button" onclick="bolas(1.0);">
+                    Bolas
+                </button>
+                <button type="button" onclick="palitos(0.175);">
+                    Palitos
+                </button>
+                <button type="button" onclick="bolasPalitos(0.25,0.175);">
+                    Bolas e Palitos
+                </button>
+                <button type="button" onclick="alphaBolasPalitos(0.5,1.0,0.175);">
+                    Bolas e Palitos
+                </button>
+                <button type="button" onclick="reposicionar();">
+                    Recentralizar
+                </button>
+            </nav>
+        </header>
+        <main id="moldiv"></main>
+        <script>
+            let config = {
+                backgroundColor: 'white', 
+                defaultcolors: $3Dmol.elementColors.Jmol
+            };
+            let viewer = $3Dmol.createViewer("moldiv", config);
+            $.get('modelo.sdf', function(modelo){
+                viewer.addModel(modelo, 'sdf');
+                viewer.setStyle({
+                sphere: {
+                    scale: 0.25
+                },
+                stick: {
+                    radius: 0.175
+                },
+                });
+                viewer.zoomTo();
+                viewer.render();
+            });
+            var bolas = function(escala){
+                viewer.setStyle({
+                    sphere:{
+                        scale: escala
+                    }
+                });
+                viewer.render();
+            };
+            var palitos = function(raio){
+                viewer.setStyle({
+                    stick: {
+                        radius: raio
+                    }
+                });
+                viewer.render();
+            };
+            var bolasPalitos = function(escala,raio){
+                viewer.setStyle({
+                    sphere: {
+                        scale: escala
+                    },
+                    stick: {
+                        radius: raio
+                    }
+                });
+            viewer.render();
+            };
+            var alphaBolasPalitos = function(opacidade, escala, raio){
+                viewer.setStyle({
+                    sphere:{
+                        scale: escala,
+                        opacity: opacidade
+                    }, 
+                    stick:{
+                        radius: raio
+                    }
+                });
+                viewer.render();
+            };
+            var reposicionar = function(){
+                viewer.zoomTo();
+            };
+        </script>
+    </body>
+</html>

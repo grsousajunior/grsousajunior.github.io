@@ -1,0 +1,5 @@
+div#moldiv {
+    height: calc(100vh - 56px);
+    width: 100vw; 
+    position: relative;
+}
