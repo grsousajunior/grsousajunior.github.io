@@ -4,45 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <style>
-            body {
-                margin: 0;
-            }
-            nav {
-                height: 40px;
-            }
-            div#moldiv {
-                height: calc(100vh - 40px); 
-                width: 100vw; 
-                position: relative;
-            }
-            button {
-                padding: 0.375rem 0.75rem;
-            }
-        </style>
+        <link rel="stylesheet" href="css3dmol.css">
     </head>
     <body>
-        <header>
-            <nav>
-                <button type="button" onclick="bolas(1.0);">
-                    Bolas
-                </button>
-                <button type="button" onclick="palitos(0.175);">
-                    Palitos
-                </button>
-                <button type="button" onclick="bolasPalitos(0.25,0.175);">
-                    Bolas e Palitos
-                </button>
-                <button type="button" onclick="alphaBolasPalitos(0.5,1.0,0.175);">
-                    Bolas e Palitos
-                </button>
-                <button type="button" onclick="reposicionar();">
-                    Recentralizar
-                </button>
-            </nav>
-        </header>
-        <div id="moldiv"></div>
+        <div id="moldiv" class="tela-cheia"></div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.6.3/3Dmol-min.min.js"></script>
-        <script src="../../template/sdfPalito.js"></script>
+        <script src="padrao-3dmol.js"></script>
     </body>
 </html>
