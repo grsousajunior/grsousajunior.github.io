@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 .tela-cheia {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     position: relative;
 }
