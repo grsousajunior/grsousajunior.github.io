@@ -2,14 +2,14 @@
 
 ## Apresentação
 
-Olá, eu sou **Gustavo Sousa Jr**, professor de **química**. Está é minha página pessoal, ainda  em construção.
+Olá, eu sou **Gustavo Sousa Jr**, professor de **química**. Está é minha página pessoal, ainda em construção.
 
 O objetivo dessa página é organizar conteúdos voltados à Química,
 através de materiais de apoio como hipertextos, modelos moleculares,
 programas de computador, aplicativos ou quaisquer ferramentas que possam ajudar no estudo,
 ensino e aprendizado desse belo ramo da ciência.
 
-Por hora, o conteúdo mais completo são os [modelos moleculares em 3D](https://grsousajunior.github.io/modelos), os quais podem ser visualizados diretamente no navegador usando um *desktop*, *laptop*, *tablet* ou *smartphone*.
+Por hora, o conteúdo mais completo são os [modelos moleculares em 3D](modelos/), os quais podem ser visualizados diretamente no navegador usando um *desktop*, *laptop*, *tablet* ou *smartphone*.
 
 ## Modelos moleculares
 
