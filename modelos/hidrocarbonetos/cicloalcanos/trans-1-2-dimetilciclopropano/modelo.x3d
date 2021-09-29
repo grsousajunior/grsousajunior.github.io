@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<X3D version='3.3' profile='Interchange'
+ xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance'
+ xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.3.xsd'>
+ <head>
+  <unit category='length' name='ångström' conversionFactor='1e-10'/>
+  <meta name="generator" content="UCSF-ChimeraX/1.1 (Windows), http://www.rbvi.ucsf.edu/chimerax/"/>
+  <meta name="created" content="2021-09-29T16:38:49.879703+00:00Z"/>
+  <meta name="creator" content="grsou"/>
+  <meta name="dateCopyrighted" content="© 2021 grsou"/>
+  <meta name="ChimeraX-commit" content="e97ce85401113568ea8f46a615ab7fda33843328"/>
+  <meta name="ChimeraX-date" content="2020-09-09 22:22:27 UTC"/>
+  <meta name="ChimeraX-branch" content="v1.1"/>
+ </head>
+ <Scene>
+  <Viewpoint centerOfRotation="0.0215501 0.18575 -0.7197" fieldOfView="0.523599" orientation="0 0 1 0" position="0.0215501 0.18575 12.6943"/>
+  <NavigationInfo type='"EXAMINE" "ANY"' headlight='true'/>
+  <Background skyColor='1 1 1' transparency='0'/>
+  <Transform translation="-0.7315 0.2137 -0.6425">
+   <Shape>
+    <Appearance DEF='ap0'>
+     <Material ambientIntensity='1' diffuseColor='0.564706 0.564706 0.564706' specularColor='0.85 0.85 0.85' shininess='0.234375' transparency='0'/>
+    </Appearance>
+    <Sphere radius="0.425"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.7738 0.2058 -0.7373">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.425"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.4373 1.3745 -0.0293">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.425"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.0734 -0.7266 0.2183">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.425"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.303 -0.216 -1.458">
+   <Shape>
+    <Appearance DEF='ap1'>
+     <Material ambientIntensity='1' diffuseColor='1 1 1' specularColor='0.85 0.85 0.85' shininess='0.234375' transparency='0'/>
+    </Appearance>
+    <Sphere radius="0.25"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.3227 1.0399 -0.3142">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.25"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.4448 -0.3323 -1.9546">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.425"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.0376 -1.7842 -0.0187">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.25"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.1565 -0.5185 1.2793">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.25"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.8712 1.8097 0.8009">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.25"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.4145 1.062 0.3518">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.25"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.5972 2.1557 -0.7788">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.25"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.9012 -1.18 -2.3846">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.25"/>
+   </Shape>
+  </Transform>
+  <Transform translation="2.4576 -0.6665 -1.7092">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.25"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.5186 0.4478 -2.7187">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.25"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.355175 0.211725 -0.6662" rotation="-0.062853 0 -0.998023 1.57603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.754151" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.530275 -0.021375 -0.4273" rotation="0.730426 0 -0.682992 2.24425">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.753824" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.90795 0.5039 -0.4892" rotation="0.65585 -0 0.754891 0.678057">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.745256" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.874375 0.106275 -0.846375" rotation="-0.818925 0 0.5739 1.97816">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.542286" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.5987 -0.0273 -0.4984" rotation="0.806555 -0 0.591159 2.23754">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.75384" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.911025 0.414325 -0.631525" rotation="0.610498 0 -0.792017 0.693291">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.542224" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.94155 0.071275 -1.04163" rotation="-0.875764 0 -0.482739 1.94016">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.745254" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.29578 1.4833 0.17825" rotation="0.826202 0 -0.563374 1.16208">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.547517" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.6816 1.29638 0.065975" rotation="0.363339 -0 0.931657 1.86036">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.547223" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.47728 1.5698 -0.216675" rotation="-0.977991 0 0.208647 0.775814">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.547173" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.094175 -0.674575 0.48355" rotation="0.996947 0 -0.0780832 1.3777">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.542202" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.3089 -0.544225 -2.0621" rotation="-0.620392 0 0.784292 2.45619">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.547493" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.698 -0.41585 -1.89325" rotation="0.235485 0 -0.971878 1.88113">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.547192" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.46325 -0.137275 -2.14563" rotation="-0.995368 0 -0.0961368 0.777358">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.547232" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.04655 -1.5198 0.04055" rotation="0.988783 0 -0.14936 0.22287">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.54221" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.397475 0.207775 -0.7136" rotation="-0.062853 0 -0.998023 1.57603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.754151" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.127825 -0.491525 0.0031" rotation="0.730426 0 -0.682992 2.24425">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.753824" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.26085 1.0843 -0.1826" rotation="0.65585 -0 0.754891 0.678057">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.745256" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.16013 -0.108575 -1.25412" rotation="-0.818925 0 0.5739 1.97816">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.542286" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.2485 -0.4935 -0.0206" rotation="0.806555 -0 0.591159 2.23754">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.75384" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.18547 0.831375 -0.419975" rotation="0.610498 0 -0.792017 0.693291">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.542224" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.27705 -0.197775 -1.65027" rotation="-0.875764 0 -0.482739 1.94016">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.745254" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.01272 1.7009 0.59335" rotation="0.826202 0 -0.563374 1.16208">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.547517" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1702 1.14013 0.256525" rotation="0.363339 -0 0.931657 1.86036">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.547223" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.55722 1.9604 -0.591425" rotation="-0.977991 0 0.208647 0.775814">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.547173" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.135725 -0.570525 1.01405" rotation="0.996947 0 -0.0780832 1.3777">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.542202" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.0371 -0.968075 -2.2771" rotation="-0.620392 0 0.784292 2.45619">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.547493" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="2.2044 -0.58295 -1.77055" rotation="0.235485 0 -0.971878 1.88113">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.547192" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.50015 0.252775 -2.52767" rotation="-0.995368 0 -0.0961368 0.777358">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.547232" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.06445 -0.991 0.15905" rotation="0.988783 0 -0.14936 0.22287">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.54221" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+ </Scene>
+</X3D>
