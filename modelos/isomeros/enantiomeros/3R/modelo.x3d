@@ -5,7 +5,7 @@
  <head>
   <unit category='length' name='ångström' conversionFactor='1e-10'/>
   <meta name="generator" content="UCSF-ChimeraX/1.2 (Windows 10.0.19041), http://www.rbvi.ucsf.edu/chimerax/"/>
-  <meta name="created" content="2021-10-13T10:26:47.592431+00:00Z"/>
+  <meta name="created" content="2021-10-13T10:32:31.871385+00:00Z"/>
   <meta name="creator" content="grsou"/>
   <meta name="dateCopyrighted" content="© 2021 grsou"/>
   <meta name="ChimeraX-commit" content="c899b5336ed08abd3ca5e0ddaaf0e382729be282"/>
@@ -13,7 +13,7 @@
   <meta name="ChimeraX-branch" content="release/v1.2"/>
  </head>
  <Scene>
-  <Viewpoint centerOfRotation="0.50105 0.0343 0.3657" fieldOfView="0.0242007" orientation="0 0 1 0" position="0.50105 0.0343 19.2683"/>
+  <Viewpoint centerOfRotation="0.50105 0.0343 0.3657" fieldOfView="0.523599" orientation="0 0 1 0" position="0.50105 0.0343 19.2683"/>
   <NavigationInfo type='"EXAMINE" "ANY"' headlight='true'/>
   <Background skyColor='1 1 1' transparency='0'/>
   <Transform translation="-0.1546 0.0433 -0.0117">

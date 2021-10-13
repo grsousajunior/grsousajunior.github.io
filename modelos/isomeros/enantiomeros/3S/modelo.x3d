@@ -5,7 +5,7 @@
  <head>
   <unit category='length' name='ångström' conversionFactor='1e-10'/>
   <meta name="generator" content="UCSF-ChimeraX/1.2 (Windows 10.0.19041), http://www.rbvi.ucsf.edu/chimerax/"/>
-  <meta name="created" content="2021-10-13T10:26:47.950419+00:00Z"/>
+  <meta name="created" content="2021-10-13T10:32:32.110732+00:00Z"/>
   <meta name="creator" content="grsou"/>
   <meta name="dateCopyrighted" content="© 2021 grsou"/>
   <meta name="ChimeraX-commit" content="c899b5336ed08abd3ca5e0ddaaf0e382729be282"/>
