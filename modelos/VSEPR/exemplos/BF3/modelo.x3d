@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<X3D version='3.3' profile='Interchange'
+ xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance'
+ xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.3.xsd'>
+ <head>
+  <unit category='length' name='ångström' conversionFactor='1e-10'/>
+  <meta name="generator" content="UCSF-ChimeraX/1.2 (Windows 10.0.19041), http://www.rbvi.ucsf.edu/chimerax/"/>
+  <meta name="created" content="2021-10-19T18:35:40.918094+00:00Z"/>
+  <meta name="creator" content="grsou"/>
+  <meta name="dateCopyrighted" content="© 2021 grsou"/>
+  <meta name="ChimeraX-commit" content="c899b5336ed08abd3ca5e0ddaaf0e382729be282"/>
+  <meta name="ChimeraX-date" content="2021-05-24 04:13:57 UTC"/>
+  <meta name="ChimeraX-branch" content="release/v1.2"/>
+ </head>
+ <Scene>
+  <Viewpoint centerOfRotation="-0.0458 0.3875 0" fieldOfView="0.523599" orientation="0 0 1 0" position="-0.0458 0.3875 6.60769"/>
+  <NavigationInfo type='"EXAMINE" "ANY"' headlight='true'/>
+  <Background skyColor='1 1 1' transparency='0'/>
+  <Transform translation="-0.0458 0.0264 0">
+   <Shape>
+    <Appearance DEF='ap0'>
+     <Material ambientIntensity='1' diffuseColor='1 0.709804 0.709804' specularColor='0.85 0.85 0.85' shininess='0.234375' transparency='0'/>
+    </Appearance>
+    <Sphere radius="0.415"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.205 -0.6957 0">
+   <Shape>
+    <Appearance DEF='ap1'>
+     <Material ambientIntensity='1' diffuseColor='0.564706 0.878431 0.313725' specularColor='0.85 0.85 0.85' shininess='0.234375' transparency='0'/>
+    </Appearance>
+    <Sphere radius="0.32"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.0458 1.4707 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.32"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.2966 -0.6957 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.32"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.2669 -0.154125 0" rotation="0 0 -1 2.09437">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.722137" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.0458 0.387475 0" rotation="0 0 0 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.72215" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.3585 -0.154125 0" rotation="0 -0 1 2.09437">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.722137" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.8923 -0.515175 0" rotation="0 0 -1 2.09437">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.722137" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.0458 1.10962 0" rotation="0 0 0 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.72215" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.9839 -0.515175 0" rotation="0 -0 1 2.09437">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.722137" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+ </Scene>
+</X3D>

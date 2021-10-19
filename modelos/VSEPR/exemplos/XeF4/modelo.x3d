@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<X3D version='3.3' profile='Interchange'
+ xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance'
+ xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.3.xsd'>
+ <head>
+  <unit category='length' name='ångström' conversionFactor='1e-10'/>
+  <meta name="generator" content="UCSF-ChimeraX/1.2 (Windows 10.0.19041), http://www.rbvi.ucsf.edu/chimerax/"/>
+  <meta name="created" content="2021-10-19T18:35:43.528370+00:00Z"/>
+  <meta name="creator" content="grsou"/>
+  <meta name="dateCopyrighted" content="© 2021 grsou"/>
+  <meta name="ChimeraX-commit" content="c899b5336ed08abd3ca5e0ddaaf0e382729be282"/>
+  <meta name="ChimeraX-date" content="2021-05-24 04:13:57 UTC"/>
+  <meta name="ChimeraX-branch" content="release/v1.2"/>
+ </head>
+ <Scene>
+  <Viewpoint centerOfRotation="0.00300002 -0.032 0.01095" fieldOfView="0.523599" orientation="0 0 1 0" position="0.00300002 -0.032 8.49383"/>
+  <NavigationInfo type='"EXAMINE" "ANY"' headlight='true'/>
+  <Background skyColor='1 1 1' transparency='0'/>
+  <Transform translation="0.003 -0.032 0.0109">
+   <Shape>
+    <Appearance DEF='ap0'>
+     <Material ambientIntensity='1' diffuseColor='0.258824 0.619608 0.690196' specularColor='0.85 0.85 0.85' shininess='0.234375' transparency='0'/>
+    </Appearance>
+    <Sphere radius="0.45"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.3757 -0.051 1.394">
+   <Shape>
+    <Appearance DEF='ap1'>
+     <Material ambientIntensity='1' diffuseColor='0.564706 0.878431 0.313725' specularColor='0.85 0.85 0.85' shininess='0.234375' transparency='0'/>
+    </Appearance>
+    <Sphere radius="0.32"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.3819 -0.0133 -1.3721">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.32"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.386 -0.048 1.3898">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.32"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.38 -0.0162 -1.3679">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="0.32"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.03103 -0.04625 1.04823" rotation="-0.708232 0 -0.705979 1.56107">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.976491" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.03718 -0.017975 -1.02635" rotation="0.708156 -0 0.706056 1.58037">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.976525" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="1.04025 -0.044 1.04508" rotation="-0.706056 0 0.708156 1.5626">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.976513" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-1.03425 -0.02015 -1.0232" rotation="0.706031 0 -0.708181 1.57889">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Cylinder height="0.976477" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.341675 -0.03675 0.356675" rotation="-0.708232 0 -0.705979 1.56107">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.976491" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.347725 -0.027325 -0.33485" rotation="0.708156 -0 0.706056 1.58037">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.976525" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.34875 -0.036 0.355625" rotation="-0.706056 0 0.708156 1.5626">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.976513" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-0.34275 -0.02805 -0.3338" rotation="0.706031 0 -0.708181 1.57889">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Cylinder height="0.976477" radius="0.175" bottom="false" top="false"/>
+   </Shape>
+  </Transform>
+ </Scene>
+</X3D>
