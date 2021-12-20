@@ -4,16 +4,16 @@
  xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.3.xsd'>
  <head>
   <unit category='length' name='ångström' conversionFactor='1e-10'/>
-  <meta name="generator" content="UCSF-ChimeraX/1.1 (Windows), http://www.rbvi.ucsf.edu/chimerax/"/>
-  <meta name="created" content="2021-09-07T15:48:12.963948+00:00Z"/>
+  <meta name="generator" content="UCSF-ChimeraX/1.2 (Windows 10.0.19041), http://www.rbvi.ucsf.edu/chimerax/"/>
+  <meta name="created" content="2021-12-20T23:54:34.241516+00:00Z"/>
   <meta name="creator" content="grsou"/>
   <meta name="dateCopyrighted" content="© 2021 grsou"/>
-  <meta name="ChimeraX-commit" content="e97ce85401113568ea8f46a615ab7fda33843328"/>
-  <meta name="ChimeraX-date" content="2020-09-09 22:22:27 UTC"/>
-  <meta name="ChimeraX-branch" content="v1.1"/>
+  <meta name="ChimeraX-commit" content="c899b5336ed08abd3ca5e0ddaaf0e382729be282"/>
+  <meta name="ChimeraX-date" content="2021-05-24 04:13:57 UTC"/>
+  <meta name="ChimeraX-branch" content="release/v1.2"/>
  </head>
  <Scene>
-  <Viewpoint centerOfRotation="0.000750005 -0.00539994 0.03385" fieldOfView="0.523599" orientation="0 0 1 0" position="0.000750005 -0.00539994 10.6381"/>
+  <Viewpoint centerOfRotation="0.000750005 -0.00539994 0.03385" fieldOfView="0.523599" orientation="0 0 1 0" position="0.000750005 -0.00539994 6.95835"/>
   <NavigationInfo type='"EXAMINE" "ANY"' headlight='true'/>
   <Background skyColor='1 1 1' transparency='0'/>
   <Transform translation="0.765 0 0">
