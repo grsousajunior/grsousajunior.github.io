@@ -7,10 +7,10 @@
     <!-- O título do documento (visível na barra de título do navegador) -->
     <title>Geometria trigonal piramidal · grsousajunior.github.io</title>
     <!-- Cria ligações para os arquivos contendos os estilos da página -->
+    <!-- A css do framework bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <!-- A css do x3dom -->
     <link rel="stylesheet" href="https://grsousajunior.github.io/assets/x3dom/css/x3dom.css">
-    <!-- Uma css personalizada -->
-    <link rel="stylesheet" href="https://grsousajunior.github.io/assets/x3dom/css/tela-cheia.css">
     <!-- Carrega o javascript do x3dom -->
     <script src="https://grsousajunior.github.io/assets/x3dom/js/x3dom.js"></script>
     <!-- Info -->
@@ -33,10 +33,36 @@
     <meta name="twitter:image" content="https://grsousajunior.github.io/modelos/VSEPR/arranjo/tetraedrico/geometria/trigonal-pidamidal/modelo.jpg">
   </head>
   <body>
-    <x3d class="tela-cheia">
-      <scene>
-        <inline url="modelo.x3d"></inline>
-      </scene>
-    </x3d>
+    <div class="container is-max-desktop">
+      <section class="section">
+        <div class="columns">
+          <div class="column">
+            <div class="content">
+              <p class="title is-4">Geometria trigonal bipiramidal</p>
+              <p class="subtitle is-6">VSEPR</p>
+            </div>
+            <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+              <ul>
+                <li><a href="https://grsousajunior.github.io/">Início</a></li>
+                <li><a href="https://grsousajunior.github.io/modelos/">Modelos</a></li>
+                <li><a href="https://grsousajunior.github.io/modelos/VSEPR/">VSEPR</a></li>
+                <li><a href="https://grsousajunior.github.io/modelos/VSEPR/arranjo/">Arranjo</a></li>
+                <li><a href="https://grsousajunior.github.io/modelos/VSEPR/arranjo/tetraedrico/">Tetraédrico</a></li>
+                <li><a href="https://grsousajunior.github.io/modelos/VSEPR/arranjo/tetraedrico/geometria/">Geometria</a></li>
+                <li class="is-active"><a href="#" aria-current="page">Trigonal bipiramidal</a></li>
+              </ul>
+            </nav>
+            <x3d height="300px">
+              <scene>
+                <inline url="modelo.x3d"></inline>
+              </scene>
+            </x3d>
+            <div class="content">
+              <p>Modelo 3D de uma geometria molecular <em>trigonal bipiramidal</em> a partir de um <a href="https://grsousajunior.github.io/arranjo-tetraedrico">arranjo tetraédrico</a>. O modelo foi preparado usando o <a href="https://avogadro.cc/" target="_blank" >Avogadro</a> 1.2.0 (<a href="https://orcaforum.kofo.mpg.de/" target="_blank">versão modificada pela equipe do pacote computacional ORCA</a> e compatível com o ORCA 4.2) a partir do metano, com a minimização da energia feita usando o <a href="https://pt.wikipedia.org/wiki/Campo_de_for%C3%A7a_(qu%C3%ADmica)" target="_blank">campo de força</a> <a href="https://en.wikipedia.org/wiki/Force_field_(chemistry)#Classical">UFF (em inglês)</a>. Os orbitais foram obtidos a partir de cálculo <em>single point</em> usando o método composto <a href="https://doi.org/10.1063/1.5012601" target="_blank">B97-3c</a> com <a href="https://en.wikipedia.org/wiki/Localized_molecular_orbitals" target="_blank">localização de orbitais (em inglês)</a> usando o <a href="https://en.wikipedia.org/wiki/Localized_molecular_orbitals#Foster-Boys" target="_blank">método Foster-Boys (em inglês)</a>, disponíveis no pacote computacional ORCA 4.2.1. O modelo 3D foi construído usando o <a href="https://www.cgl.ucsf.edu/chimerax/" target="_blank">ChimeraX</a> 1.2, modificando/ocultando alguns átomos para coincidir com a geometria molecular desejada, além das superfícies, geradas a partir dos <em>orbitais moleculares localizados</em>, com isovalor de 0,1.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
