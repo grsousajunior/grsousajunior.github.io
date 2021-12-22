@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dióxido de carbono (MPE) · grsousajunior.github.io</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://grsousajunior.github.io/assets/x3dom/css/x3dom.css">
+    <script src="https://grsousajunior.github.io/assets/x3dom/js/x3dom.js"></script>
+    <meta name="description" content="Modelo 3D do mapa de potencial  da molécula do gás dióxido de carbono">
+    <meta name="author" content="Gustavo Sousa Jr">
+    <meta property="og:url" content="https://grsousajunior.github.io/modelos/dioxido-de-carbono/mpe/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dióxido de carbono · grsousajunior.github.io">
+    <meta property="og:description" content="Modelo 3D do mapa de potencial da molécula do gás dióxido de carbono">
+    <meta property="og:image" content="https://grsousajunior.github.io/modelos/dioxido-de-carbono/mpe/modelo.jpg">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:baseURL" content="grsousajunior.github.io">
+    <meta property="twitter:url" content="https://grsousajunior.github.io/modelos/dioxido-de-carbono/mpe/">
+    <meta name="twitter:title" content="Dióxido de carbono · grsousajunior.github.io">
+    <meta name="twitter:description" content="Modelo 3D do mapa de potencial da molécula do gás dióxido de carbono">
+    <meta name="twitter:image" content="https://grsousajunior.github.io/modelos/dioxido-de-carbono/mpe/modelo.jpg">
+  </head>
+  <body>
+    <div class="container is-max-desktop">
+      <section class="section">
+        <div class="columns">
+          <div class="column">
+            <div class="content">
+              <p class="title is-4">Dióxido de carbono</p>
+              <p class="subtitle is-6">Mapa de potencial eletrostático</p>
+            </div>
+            <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+              <ul>
+                <li><a href="https://grsousajunior.github.io/">Início</a></li>
+                <li><a href="https://grsousajunior.github.io/modelos/">Modelos</a></li>
+                <li><a href="https://grsousajunior.github.io/modelos/dioxido-de-carbono/">Dióxido de carbono</a></li>
+                <li class="is-active"><a href="#" aria-current="page">MPE</a></li>
+              </ul>
+            </nav>
+            <x3d height="300px">
+              <scene>
+                <inline url="modelo.x3d"></inline>
+              </scene>
+            </x3d>
+            <div class="content">
+              <p>Modelo 3D do mapa de potencial da molécula do dióxido de carbono, mais conhecido como gás carbônico, CO<sub>2</sub>. A molécula foi preparada usando o <a href="https://avogadro.cc/" target="_blank" >Avogadro</a> 1.2.0 (<a href="https://orcaforum.kofo.mpg.de/" target="_blank">versão modificada pela equipe do ORCA</a> e compatível com o ORCA 4.2), com a minimização da energia feita usando o <a href="https://pt.wikipedia.org/wiki/Campo_de_for%C3%A7a_(qu%C3%ADmica)" target="_blank">campo de força</a> <a href="https://en.wikipedia.org/wiki/Force_field_(chemistry)#Classical">UFF (em inglês)</a>. O modelo 3D foi gerado usando o <a href="https://www.cgl.ucsf.edu/chimerax/" target="_blank">ChimeraX</a> 1.2. A superfície foi gerada a partir da <em>densidade eletrônica</em> (isovalor de 0,002) colorida usando o <em>potencial eletrostático</em>, na faixa de -0,02 a 0,06 usando o mapa de cores (<em>colormap</em>) <a href="https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html" target="_blank">Turbo</a>. A cor vermelha indica regiões negativas. A cor azul indica regições positivas. As cores verde e amarela indicam regiões aproximadamente neutras.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <!-- A codificação da página (para caracteres acentuados) -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- O título do documento (visível na barra de título do navegador) -->
-    <title>Trifluoreto de boro (BF₃) · grsousajunior.github.io</title>
-    <!-- Cria ligações para os arquivos contendos os estilos da página -->
-    <!-- A css do x3dom -->
+    <title>Trifluoreto de boro · grsousajunior.github.io</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="https://grsousajunior.github.io/assets/x3dom/css/x3dom.css">
-    <!-- Uma css personalizada -->
-    <link rel="stylesheet" href="https://grsousajunior.github.io/assets/x3dom/css/tela-cheia.css">
-    <!-- Carrega o javascript do x3dom -->
     <script src="https://grsousajunior.github.io/assets/x3dom/js/x3dom.js"></script>
-    <!-- Info -->
-    <meta name="description" content="Modelo 3D da molécula do trifluoreto de boro (BF₃)">
+    <meta name="description" content="Modelo 3D da molécula do trifluoreto de boro">
     <meta name="author" content="Gustavo Sousa Jr">
-    <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://grsousajunior.github.io/modelos/VSEPR/exemplos/BF3/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Trifluoreto de boro (BF₃) · grsousajunior.github.io">
-    <meta property="og:description" content="Modelo 3D da molécula do trifluoreto de boro (BF₃)">
+    <meta property="og:title" content="Trifluoreto de boro · grsousajunior.github.io">
+    <meta property="og:description" content="Modelo 3D da molécula do trifluoreto de boro">
     <meta property="og:image" content="https://grsousajunior.github.io/modelos/VSEPR/exemplos/BF3/modelo.jpg">
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="600">
-    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:baseURL" content="grsousajunior.github.io">
     <meta property="twitter:url" content="https://grsousajunior.github.io/modelos/VSEPR/exemplos/BF3/">
-    <meta name="twitter:title" content="Trifluoreto de boro (BF₃) · grsousajunior.github.io">
-    <meta name="twitter:description" content="Modelo 3D da molécula do trifluoreto de boro (BF₃)">
+    <meta name="twitter:title" content="Trifluoreto de boro · grsousajunior.github.io">
+    <meta name="twitter:description" content="Modelo 3D da molécula do trifluoreto de boro">
     <meta name="twitter:image" content="https://grsousajunior.github.io/modelos/VSEPR/exemplos/BF3/modelo.jpg">
   </head>
   <body>
-    <x3d class="tela-cheia">
-      <scene>
-        <inline url="modelo.x3d"></inline>
-      </scene>
-    </x3d>
+    <div class="container is-max-desktop">
+      <section class="section">
+        <div class="columns">
+          <div class="column">
+            <div class="content">
+              <p class="title is-4">Trifluoreto de boro</p>
+              <p class="subtitle is-6">Mapa de potencial eletrostático</p>
+            </div>
+            <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+              <ul>
+                <li><a href="https://grsousajunior.github.io/">Início</a></li>
+                <li><a href="https://grsousajunior.github.io/modelos/">Modelos</a></li>
+                <li><a href="https://grsousajunior.github.io/modelos/VSEPR/">VSEPR</a></li>
+                <li><a href="https://grsousajunior.github.io/modelos/VSEPR/exemplos/">Exemplos</a></li>
+                <li class="is-active"><a href="#" aria-current="page">BF3</a></li>
+              </ul>
+            </nav>
+            <x3d height="300px">
+              <scene>
+                <inline url="modelo.x3d"></inline>
+              </scene>
+            </x3d>
+            <div class="content">
+              <p>Modelo 3D da molécula do trifluoreto de boro, BF<sub>3</sub>. A molécula foi preparada usando o <a href="https://avogadro.cc/" target="_blank" >Avogadro</a> 1.2.0 (<a href="https://orcaforum.kofo.mpg.de/" target="_blank">versão modificada pela equipe do ORCA</a> e compatível com o ORCA 4.2), com a minimização da energia feita usando o <a href="https://pt.wikipedia.org/wiki/Campo_de_for%C3%A7a_(qu%C3%ADmica)" target="_blank">campo de força</a> <a href="https://en.wikipedia.org/wiki/Force_field_(chemistry)#Classical">UFF (em inglês)</a>. O modelo 3D foi gerado usando o <a href="https://www.cgl.ucsf.edu/chimerax/" target="_blank">ChimeraX</a> 1.2.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
