@@ -1,0 +1,19 @@
+cd D:\Users\grsou\GitHub\grsousajunior.github.io\modelos\hidrocarbonetos\alcanos\metano\mpe
+open modelo.sdf
+open eldens.cube
+open mep.cube
+#windowsize 1200 630
+set bgColor white
+color byelement
+graphics silhouettes true
+style ball
+size ballScale 0.25 stickRadius 0.175
+hide #2.1
+volume #2 level 0 level 0.002
+hide #3.1
+hide #3.2
+color sample #2 map #3 palette ^#30123B:#424BB5:#4680F6:#2FB2F4:#18DDC2:#3FF68A:#8BFF4B:#C3F134:#EECF3A:#FEA130:#F46617:#D83706:#A91601 range -0.02, 0.06
+view
+save modelo.x3d
+transparency 50
+save modelo.jpg width 600 height 600 supersample 3
