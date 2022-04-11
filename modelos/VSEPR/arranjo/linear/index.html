@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- O título do documento (visível na barra de título do navegador) -->
-    <title>Linear · grsousajunior.github.io</title>
-    <!-- Cria ligações para os arquivos contendos os estilos da página -->
+    <title>Linear · Prof. Gustavo Sousa Jr</title>
+    <!-- Carrega o jQuery 3.6.0 (slim minified) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <!-- Carrega a css do Bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <!-- Carrega os ícones Creative Commons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/cc-icons/1.2.1/css/cc-icons.min.css">
     <!-- A css do x3dom -->
     <link rel="stylesheet" href="https://grsousajunior.github.io/assets/x3dom/css/x3dom.css">
     <!-- Uma css personalizada -->
@@ -19,7 +24,7 @@
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://grsousajunior.github.io/modelos/VSEPR/arranjo/linear/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Linear · grsousajunior.github.io">
+    <meta property="og:title" content="Linear · Prof. Gustavo Sousa Jr">
     <meta property="og:description" content="Modelo 3D de um arranjo molecular linear">
     <meta property="og:image" content="https://grsousajunior.github.io/modelos/VSEPR/arranjo/linear/modelo.jpg">
     <meta property="og:image:width" content="600">
@@ -28,15 +33,111 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:baseURL" content="grsousajunior.github.io">
     <meta property="twitter:url" content="https://grsousajunior.github.io/modelos/VSEPR/arranjo/linear/">
-    <meta name="twitter:title" content="Linear · grsousajunior.github.io">
+    <meta name="twitter:title" content="Linear · Prof. Gustavo Sousa Jr">
     <meta name="twitter:description" content="Modelo 3D de um arranjo molecular linear">
     <meta name="twitter:image" content="https://grsousajunior.github.io/modelos/VSEPR/arranjo/linear/modelo.jpg">
   </head>
   <body>
-    <x3d class="tela-cheia">
-      <scene>
-        <inline url="modelo.x3d"></inline>
-      </scene>
-    </x3d>
+    <header>
+      <!-- A barra de navegação -->
+      <nav class="navbar is-link">
+        <div class="container is-max-desktop">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="https://grsousajunior.github.io">
+              Prof. Gustavo Sousa Jr
+            </a>
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <!-- Itens da barra de navegação -->
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item" href="https://grsousajunior.github.io">Início</a>
+              <a class="navbar-item" href="https://grsousajunior.github.io/modelos/">Modelos</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="section">
+      <div class="container is-max-desktop">
+        <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+          <ul>
+            <li><a href="https://grsousajunior.github.io/">Início</a></li>
+            <li><a href="https://grsousajunior.github.io/modelos/">Modelos</a></li>
+            <li><a href="https://grsousajunior.github.io/modelos/VSEPR/">VSEPR</a></li>
+            <li><a href="https://grsousajunior.github.io/modelos/VSEPR/arranjo/">Arranjo</a></li>
+            <li class="is-active"><a href="#" aria-current="page">Linear</a></li>
+          </ul>
+        </nav>
+
+        <div class="columns">
+          <div class="column is-full-mobile is-three-fifths-tablet">
+            <div class="content">
+              <h1 class="title">Arranjo linear</h1>
+              <p class="subtitle">VSEPR</p>
+                <!-- tags -->
+                <p>
+                  <div class="tags">
+                    <span class="tag is-link">
+                      VSEPR
+                    </span>
+                    <span class="tag is-link">
+                      arranjos
+                    </span>
+                  </div>
+                </p>
+            </div>
+            <!-- O modelo -->
+            <x3d height="300px">
+              <scene>
+                <inline url="modelo.x3d"></inline>
+              </scene>
+            </x3d>
+          </div>
+          <!-- O card com informações sobre o autor -->
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img class="is-rounded" src="https://grsousajunior.github.io/assets/img/avatar-600x600.jpg" alt="Avatar">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-5">Gustavo Sousa Jr</p>
+                    <p class="subtitle is-6 has-text-weight-light">Professor de Química</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Gustavo Sousa Jr é professor de Química e entusiasta da química computacional, programação e webdesign. 
+                  Seu hobbie é criar conteúdo voltado para o aprendizado da química.
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container is-max-desktop">
+        <div class="columns is-gapless">
+          <div class="column is-2">
+            <i class="cc cc-by-nc-sa is-size-1"></i>
+          </div>
+          <div class="column"> 
+            <p>
+              Exceto onde indicado em contrário, o conteúdo deste site está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Carrega um javascript personalizado -->
+    <script src="https://grsousajunior.github.io/assets/js/toggle.js"></script>
   </body>
 </html>

@@ -1,2 +1,12 @@
 
 *.ini
+*.gbw
+*.inp
+*.out
+*.scfp
+*.prop
+*.xyz
+*.cub
+*.cube
+*.txt
+*.sdf
