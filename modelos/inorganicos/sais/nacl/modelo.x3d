@@ -1,0 +1,774 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<X3D version='3.3' profile='Interchange'
+ xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance'
+ xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.3.xsd'>
+ <head>
+  <unit category='length' name='ångström' conversionFactor='1e-10'/>
+  <meta name="generator" content="UCSF-ChimeraX/1.2 (Windows 10.0.19041), http://www.rbvi.ucsf.edu/chimerax/"/>
+  <meta name="created" content="2022-12-08T22:45:03.592678+00:00Z"/>
+  <meta name="creator" content="Gustavo Sousa Junior"/>
+  <meta name="dateCopyrighted" content="© 2022 Gustavo Sousa Junior"/>
+  <meta name="ChimeraX-commit" content="c899b5336ed08abd3ca5e0ddaaf0e382729be282"/>
+  <meta name="ChimeraX-date" content="2021-05-24 04:13:57 UTC"/>
+  <meta name="ChimeraX-branch" content="release/v1.2"/>
+ </head>
+ <Scene>
+  <Viewpoint centerOfRotation="0.6402 0.6402 5.6402" fieldOfView="0.7" orientation="0 0 1 0" position="0.6402 0.6402 42.7504"/>
+  <NavigationInfo type='"EXAMINE" "ANY"' headlight='true'/>
+  <Background skyColor='1 1 1' transparency='0'/>
+  <Transform translation="-5 -5 0">
+   <Shape>
+    <Appearance DEF='ap0'>
+     <Material ambientIntensity='1' diffuseColor='0.670588 0.360784 0.94902' specularColor='0.85 0.85 0.85' shininess='0.234375' transparency='0'/>
+    </Appearance>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 -5 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 -5 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 0.6402 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 0.6402 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 0.6402 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 6.2804 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 6.2804 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 6.2804 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 -5 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 -5 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 -5 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 0.6402 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 0.6402 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 0.6402 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 6.2804 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 6.2804 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 6.2804 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 -5 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 -5 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 -5 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 0.6402 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 0.6402 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 0.6402 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 6.2804 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 6.2804 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 6.2804 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 -2.1799 2.8201">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 -2.1799 8.4603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 3.4603 2.8201">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 3.4603 8.4603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 -2.1799 2.8201">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 -2.1799 8.4603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 3.4603 2.8201">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 3.4603 8.4603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 -2.1799 2.8201">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 -2.1799 8.4603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 3.4603 2.8201">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 3.4603 8.4603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 -5 2.8201">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 -5 8.4603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 0.6402 2.8201">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 0.6402 8.4603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 6.2804 2.8201">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 6.2804 8.4603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 -5 2.8201">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 -5 8.4603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 0.6402 2.8201">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 0.6402 8.4603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 6.2804 2.8201">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 6.2804 8.4603">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 -2.1799 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 -2.1799 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 -2.1799 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 3.4603 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 3.4603 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 3.4603 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 -2.1799 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 -2.1799 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 -2.1799 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 3.4603 0">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 3.4603 5.6402">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 3.4603 11.2804">
+   <Shape>
+    <Appearance USE='ap0'/>
+    <Sphere radius="0.99"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 -5 0">
+   <Shape>
+    <Appearance DEF='ap1'>
+     <Material ambientIntensity='1' diffuseColor='0.121569 0.941176 0.121569' specularColor='0.85 0.85 0.85' shininess='0.234375' transparency='0'/>
+    </Appearance>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 -5 5.6402">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 -5 11.2804">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 0.6402 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 0.6402 5.6402">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 0.6402 11.2804">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 6.2804 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 6.2804 5.6402">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 6.2804 11.2804">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 -5 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 -5 5.6402">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 -5 11.2804">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 0.6402 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 0.6402 5.6402">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 0.6402 11.2804">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 6.2804 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 6.2804 5.6402">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 6.2804 11.2804">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 -2.1799 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 -2.1799 5.6402">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 -2.1799 11.2804">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 3.4603 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 3.4603 5.6402">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 3.4603 11.2804">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 -2.1799 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 -2.1799 5.6402">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 -2.1799 11.2804">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 3.4603 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 3.4603 5.6402">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 3.4603 11.2804">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 -2.1799 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 -2.1799 5.6402">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 -2.1799 11.2804">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 3.4603 0">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 3.4603 5.6402">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 3.4603 11.2804">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 -5 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 -5 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 0.6402 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 0.6402 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 6.2804 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-5 6.2804 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 -5 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 -5 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 0.6402 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 0.6402 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 6.2804 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="0.6402 6.2804 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 -5 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 -5 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 0.6402 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 0.6402 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 6.2804 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="6.2804 6.2804 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 -2.1799 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 -2.1799 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 3.4603 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="-2.1799 3.4603 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 -2.1799 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 -2.1799 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 3.4603 2.8201">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+  <Transform translation="3.4603 3.4603 8.4603">
+   <Shape>
+    <Appearance USE='ap1'/>
+    <Sphere radius="1.81"/>
+   </Shape>
+  </Transform>
+ </Scene>
+</X3D>
