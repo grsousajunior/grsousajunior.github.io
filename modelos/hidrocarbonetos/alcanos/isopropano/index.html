@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- A codificação da página (para caracteres acentuados) -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NaCl · Prof. Gustavo Sousa Jr</title>
+    <!-- O título do documento (visível na barra de título do navegador) -->
+    <title>Isopropano · grsousajunior.github.io</title>
     <!-- Carrega o jQuery 3.6.0 (slim minified) -->
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <!-- Cria ligações para os arquivos contendos os estilos da página -->
     <!-- Carrega a css do Bulma -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <!-- Carrega a css do x3dom -->
+    <!-- Carrega a css dos ícones Creative Commons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/cc-icons/1.2.1/css/cc-icons.min.css">
+    <!-- A css do x3dom -->
     <link rel="stylesheet" href="https://grsousajunior.github.io/assets/x3dom/css/x3dom.css">
     <!-- Carrega o javascript do x3dom -->
     <script src="https://grsousajunior.github.io/assets/x3dom/js/x3dom.js"></script>
-    <!-- Carrega a css dos ícones Creative Commons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/cc-icons/1.2.1/css/cc-icons.min.css">
-    <!-- Meta tags -->
-    <meta name="description" content="Modelo 3D da estrutura um cristal de NaCl">
+    <!-- Info -->
+    <meta name="description" content="Modelo 3D da molécula do isopropano">
     <meta name="author" content="Gustavo Sousa Jr">
-    <meta property="og:url" content="https://grsousajunior.github.io/modelos/inorganicos/sais/nacl/">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://grsousajunior.github.io/modelos/hidrocarbonetos/alcanos/isopropano/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="NaCl · Prof. Gustavo Sousa Jr">
-    <meta property="og:description" content="Modelo 3D da estrutura um cristal de NaCl">
-    <meta property="og:image" content="https://grsousajunior.github.io/modelos/inorganicos/sais/nacl/modelo.jpg">
-    <meta property="og:image:width" content="600">
-    <meta property="og:image:height" content="600">
+    <meta property="og:title" content="Propano · grsousajunior.github.io">
+    <meta property="og:description" content="Modelo 3D da molécula do isopropano">
+    <meta property="og:image" content="https://grsousajunior.github.io/modelos/hidrocarbonetos/alcanos/isopropano/modelo.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:baseURL" content="grsousajunior.github.io">
-    <meta property="twitter:url" content="https://grsousajunior.github.io/modelos/inorganicos/sais/nacl/">
-    <meta name="twitter:title" content="NaCl · Prof. Gustavo Sousa Jr">
-    <meta name="twitter:description" content="Modelo 3D da estrutura um cristal de NaCl">
-    <meta name="twitter:image" content="https://grsousajunior.github.io/modelos/inorganicos/sais/nacl/modelo.jpg">
+    <meta property="twitter:url" content="https://grsousajunior.github.io/modelos/hidrocarbonetos/alcanos/isopropano/">
+    <meta name="twitter:title" content="Propano · grsousajunior.github.io">
+    <meta name="twitter:description" content="Modelo 3D da molécula do isopropano">
+    <meta name="twitter:image" content="https://grsousajunior.github.io/modelos/hidrocarbonetos/alcanos/isopropano/modelo.jpg">
   </head>
   <body>
-    <!-- A barra de navegação -->
     <nav class="navbar is-info">
       <div class="container is-max-desktop">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://grsousajunior.github.io">Prof. Gustavo Sousa Jr</a>
+          <!-- Botão do menu -->
           <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -49,32 +53,55 @@
           <div class="navbar-start">
             <a class="navbar-item" href="https://grsousajunior.github.io">Início</a>
             <a class="navbar-item" href="https://grsousajunior.github.io/modelos/">Modelos</a>
-            <a class="navbar-item" href="https://youtube.com/@ekaflerovio">YouTube</a>
           </div>
         </div>
       </div>
     </nav>
+    <!-- Conteúdo -->
     <section class="section">
       <div class="container is-max-desktop">
-        <!-- O corpo da página -->
+        <!-- Os breadcrumbs -->
+        <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+          <ul>
+            <li><a href="https://grsousajunior.github.io/">Início</a></li>
+            <li><a href="https://grsousajunior.github.io/modelos/">Modelos</a></li>
+            <li><a href="https://grsousajunior.github.io/modelos/hidrocarbonetos/">Hidrocarbonetos</a></li>
+            <li><a href="https://grsousajunior.github.io/modelos/hidrocarbonetos/alcanos/">Alcanos</a></li>
+            <li class="is-active"><a href="#" aria-current="page">Isopropano</a></li>
+          </ul>
+        </nav>
+        <!-- Título e substítulo -->
         <div class="columns">
-          <!-- A parte principal -->
           <div class="column">
             <div class="content">
-              <h1 class="title">NaCl</h1>
-              <p class="subtitle">Composto iônico</p>
-              <x3d height="400px">
-                <scene>
-                  <inline url="modelo.x3d"></inline>
-                </scene>
-              </x3d>
-              <div class="content">
-              <p>Modelo 3D no NaCl. As esferas na <strong><span style="color: #AB5CF2;">cor roxa</span></strong> representam os átomos Na enquanto que os átomos de Cl são representados na <strong><span style="color: #1FF01F;">cor verde</span></strong>. A estrutura molecular foi preparada usando o <a href="https://avogadro.cc/" target="_blank" >Avogadro</a> 1.2.0 (<a href="https://orcaforum.kofo.mpg.de/" target="_blank">versão modificada pela equipe do ORCA</a>). O modelo 3D foi gerado usando o <a href="https://www.cgl.ucsf.edu/chimerax/" target="_blank">ChimeraX 1.2</a>.</p>
-            </div>
-            </div><!-- content -->
-          </div><!-- A parte principal -->
-          <!-- Não precisa ser atualizado com frequência -->
-          <!-- A barra lateral -->
+              <h1 class="title">Isopropano</h1>
+              <p class="subtitle">Propano, 2-metil-</p>
+
+              <!-- tags -->
+              <p>
+                <div class="tags">
+                  <span class="tag is-info">
+                    hidrocarbonetos
+                  </span>
+                  <span class="tag is-info">
+                    alcanos
+                  </span>
+                </div>
+              </p>
+              <!-- O modelo 3D -->
+              <div class="column">
+                <x3d height="400px">
+                  <scene>
+                    <inline url="modelo.x3d"></inline>
+                  </scene>
+                </x3d>
+              </div>
+
+            </div> <!-- content -->
+            
+          </div> <!-- column -->
+
+          <!-- Barra lateral -->
           <div class="column is-4-desktop is-4-tablet">
             <p class="title is-5">Sobre o autor</p>
             <div class="columns is-multiline">
@@ -100,9 +127,9 @@
                 </div>
               </div>
             </div>
-          </div><!-- A barra lateral -->
-        </div><!-- O corpo da página -->
-      </div><!-- container -->
+          </div><!-- Barra lateral -->
+        </div>
+      </div>
     </section>
     <!-- O rodapé padrão das páginas -->
     <footer class="footer">
