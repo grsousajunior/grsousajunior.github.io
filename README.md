@@ -15,8 +15,8 @@ ensino e aprendizado desse belo ramo da ciência.
 
 #### Alcanos
 
-- [x] Metano
-- [x] Etano
+- [x] Metano, $CH4$
+- [x] Etano, $C2H6$
 - [x] Propano
 - [ ] Isopropano
 - [x] Butano
@@ -30,6 +30,3 @@ ensino e aprendizado desse belo ramo da ciência.
 - [x] Nonano
 - [x] Decano
 - [x] Fitano (2,6,10,14-tetrametilexadecano)
-
-#### Alcenos
-#### Alcinos
